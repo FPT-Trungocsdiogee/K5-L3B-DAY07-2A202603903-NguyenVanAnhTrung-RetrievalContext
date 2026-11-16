@@ -1,0 +1,650 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "question": "What is Sampling Error?",
+    "queries": [
+      "What is Sampling Error?"
+    ],
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 74,
+        "evidence": "Sampling error is the difference between the results obtained from a sample and the true value of the\npopulation parameter it is intended to represent."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p74:para600:7",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 74,
+        "text": "Volunteer sampling is not considered a random or representative sampling technique, as the participants\nmay not accurately represent the larger population. Therefore, the results obtained from volunteer\nsampling may not be generalizable to the entire population.\nSampling Error\nSampling error is the difference between the results obtained from a sample and the true value of the\npopulation parameter it is intended to represent. It is caused by chance and is inherent in any sampling\nmethod. The goal of researchers is to minimize sampling errors and increase the accuracy of the results.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3633,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3044,
+          "chunk_index": 7,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.6175420946721293,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p75:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 75,
+        "text": "the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of\nthe target population and provide a clear and accessible way to identify and select individuals or units for\ninclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly\nimpact the accuracy and validity of research findings.\nMeasurement Error\nMeasurement errors are inaccuracies or discrepancies that surface during the process of collecting,\nrecording, or analyzing data.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 532,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.5962452311502816,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p74:para600:8",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 74,
+        "text": "To\navoid sampling error, researchers can increase sample size, use probability sampling methods, control for\nextraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.\nSampling Bias\nSampling bias occurs when the sample used in a study isn’t representative of the population it intends to\ngeneralize to, leading to skewed or inaccurate conclusions.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 4034,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3634,
+          "chunk_index": 8,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.5465667565426958,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p74:para600:7 | Principles-of-Data-Science-WEB.pdf | page 74]\nVolunteer sampling is not considered a random or representative sampling technique, as the participants\nmay not accurately represent the larger population. Therefore, the results obtained from volunteer\nsampling may not be generalizable to the entire population.\nSampling Error\nSampling error is the difference between the results obtained from a sample and the true value of the\npopulation parameter it is intended to represent. It is caused by chance and is inherent in any sampling\nmethod. The goal of researchers is to minimize sampling errors and increase the accuracy of the results.",
+    "context_ids": [
+      "openstax-pds-ch02:p74:para600:7"
+    ],
+    "context_chars": 670,
+    "elapsed_ms": 1736.8092999986402,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "question": "What is Measurement Error?",
+    "queries": [
+      "What is Measurement Error?"
+    ],
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 75,
+        "evidence": "Measurement errors are inaccuracies or discrepancies that surface during the process of collecting,\nrecording, or analyzing data."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p75:para600:1",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 75,
+        "text": "They may occur due to human error, environmental factors, or inherent\ninconsistencies in the phenomena being studied. Random error, which arises unpredictably, can affect the\nprecision of measurements, and systematic error may consistently bias measurements in a particular\ndirection. In data analysis, addressing measurement error is crucial for ensuring the reliability and validity of\nresults.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 929,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 533,
+          "chunk_index": 1,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.6232466418990468,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p75:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 75,
+        "text": "the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of\nthe target population and provide a clear and accessible way to identify and select individuals or units for\ninclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly\nimpact the accuracy and validity of research findings.\nMeasurement Error\nMeasurement errors are inaccuracies or discrepancies that surface during the process of collecting,\nrecording, or analyzing data.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 532,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.5665675445067637,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p75:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 75,
+        "text": "Techniques for mitigating measurement error include improving data collection methods, calibrating\ninstruments, conducting validation studies, and employing statistical methods like error modeling or\nsensitivity analysis to account for and minimize the impact of measurement inaccuracies on the analysis\noutcomes.\nA Sampling Case Study\nConsider a research study that wants to randomly select a group of college students from a larger population\nto examine the effects of exercise on their mental health outcomes.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 1442,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 930,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.48216725252604253,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p75:para600:1 | Principles-of-Data-Science-WEB.pdf | page 75]\nThey may occur due to human error, environmental factors, or inherent\ninconsistencies in the phenomena being studied. Random error, which arises unpredictably, can affect the\nprecision of measurements, and systematic error may consistently bias measurements in a particular\ndirection. In data analysis, addressing measurement error is crucial for ensuring the reliability and validity of\nresults.",
+    "context_ids": [
+      "openstax-pds-ch02:p75:para600:1"
+    ],
+    "context_chars": 477,
+    "elapsed_ms": 1430.1285000001371,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "question": "What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?",
+    "queries": [
+      "What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?"
+    ],
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 90,
+        "evidence": "A normal form (NF) is a\nguideline or set of rules used in database design"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p90:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 90,
+        "text": "Table 2.4 Comparison of Data Standardization, Transformation, and Validation Processes\nData Normalization\nThe first step in standardizing data is to establish guidelines and rules for formatting and structuring the\ndata. This may include setting conventions for naming, data types, and formatting A normal form (NF) is a\nguideline or set of rules used in database design to ensure that a database is well-structured, organized, and\nfree from certain types of data irregularities, such as redundancy and inconsistency.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2013,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1496,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.5045732886860782,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p90:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 90,
+        "text": "The most commonly used\nnormal forms are 1NF, 2NF, 3NF (First, Second, and Third Normal Form), and BCNF (Boyce-Codd Normal\nForm).\nNormalization is the process of applying these rules to a database. The data must be organized and cleaned,\nwhich involves removing duplicates and erroneous data, filling in missing values, and logically arranging the\ndata. To uphold data standardization, regular quality control measures should be implemented, including\nperiodic data audits to ascertain the accuracy and consistency of the data.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2540,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2014,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.4997316236805982,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p90:para600:1",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 90,
+        "text": "Purpose Techniques Example\nNormalization To eliminate\nredundant data\nand ensure data\ndependencies\nmake sense\nInvolve breaking\ndown a larger\ndatabase into smaller,\nmore manageable\ntables and\nestablishing\nrelationships\nbetween them.\nA customer database table with\nredundant data can be\nnormalized by splitting it into\ntwo tables for customer\ninformation and orders and\nestablishing the relationship\nbetween them.\nTransformation To make the data\nmore consistent,\ncoherent, and\nmeaningful for\nanalysis.\nInclude data\ncleaning, data\nmerging, data\nsplitting, data\nconversion, and data\naggregation.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1036,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 446,
+          "chunk_index": 1,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.4619045889859533,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p90:para600:3 | Principles-of-Data-Science-WEB.pdf | page 90]\nTable 2.4 Comparison of Data Standardization, Transformation, and Validation Processes\nData Normalization\nThe first step in standardizing data is to establish guidelines and rules for formatting and structuring the\ndata. This may include setting conventions for naming, data types, and formatting A normal form (NF) is a\nguideline or set of rules used in database design to ensure that a database is well-structured, organized, and\nfree from certain types of data irregularities, such as redundancy and inconsistency.",
+    "context_ids": [
+      "openstax-pds-ch02:p90:para600:3"
+    ],
+    "context_chars": 598,
+    "elapsed_ms": 1127.7231000003667,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "question": "Can the results of a study that uses volunteer sampling be generalized to the whole population?",
+    "queries": [
+      "Can the results of a study that uses volunteer sampling be generalized to the whole population?"
+    ],
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 74,
+        "evidence": "the results obtained from volunteer\nsampling may not be generalizable to the entire population"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p74:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 74,
+        "text": "Volunteer sampling refers to the fact that the participants are not picked at random\nby the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is\ncommonly used in studies that involve recruiting participants from a specific population, such as a specific\ncommunity or organization. It is also often used in studies where convenience and accessibility are\nimportant factors, as participants may be more likely to volunteer if the study is easily accessible to them.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3043,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2536,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.6143941092391432,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p74:para600:7",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 74,
+        "text": "Volunteer sampling is not considered a random or representative sampling technique, as the participants\nmay not accurately represent the larger population. Therefore, the results obtained from volunteer\nsampling may not be generalizable to the entire population.\nSampling Error\nSampling error is the difference between the results obtained from a sample and the true value of the\npopulation parameter it is intended to represent. It is caused by chance and is inherent in any sampling\nmethod. The goal of researchers is to minimize sampling errors and increase the accuracy of the results.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3633,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3044,
+          "chunk_index": 7,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.6089332124480933,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p74:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 74,
+        "text": "Quota sampling is generally used in market research and\nopinion polls, as it allows for a fast and cost-effective way to gather data from a diverse range of\nindividuals. However, it is important to note that the results of quota sampling may not accurately\nrepresent the entire population, as the sample is not randomly selected and may be biased toward certain\ncharacteristics. Therefore, the findings from studies using quota sampling should be interpreted with\ncaution.\n9. Volunteer sampling.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 2535,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2040,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.5358053013431742,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p74:para600:6 | Principles-of-Data-Science-WEB.pdf | page 74]\nVolunteer sampling refers to the fact that the participants are not picked at random\nby the researcher, but instead volunteer themselves to be a part of the study. This type of sampling is\ncommonly used in studies that involve recruiting participants from a specific population, such as a specific\ncommunity or organization. It is also often used in studies where convenience and accessibility are\nimportant factors, as participants may be more likely to volunteer if the study is easily accessible to them.",
+    "context_ids": [
+      "openstax-pds-ch02:p74:para600:6"
+    ],
+    "context_chars": 588,
+    "elapsed_ms": 1288.7859000002209,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "question": "Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?",
+    "queries": [
+      "Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?"
+    ],
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 99,
+        "evidence": "Hashes indexing involves using a hash function to map data to a specific index in a table."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p99:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 99,
+        "text": "Each node contains a range of data values and\npointers to child nodes, allowing for efficient searching within a specific range of values.\nHashes indexing involves using a hash function to map data to a specific index in a table. This allows for direct\naccess to the data based on its hashed value, making retrieval faster than traditional sequential searching.\nBitmap indexing is a technique that involves creating a bitmap for each different value in a dataset. The\nbitmaps are then combined to quickly identify records that match a specific set of values, allowing efficient\ndata retrieval.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 3252,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2659,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.5952987038197699,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p99:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 99,
+        "text": "Data indexing refers to the process of managing and saving the collected and generated data in a\ndatabase or other data storage system in a way that allows for efficient and fast return of specific data.\nIndexing techniques vary in how they organize and store data, but they all aim to improve data retrieval\nperformance. B-tree indexing is illustrated in Figure 2.5. It involves organizing data in a tree-like structure with\na root node and branches that contain pointers to other nodes.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 2658,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2170,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.5415391953080491,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p99:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 99,
+        "text": "It offers\nscalability, cost-effectiveness, and remote accessibility.\n5. Object storage. With object storage, data are stored as objects that consist of both data and metadata.\nThis method is often used for storing large volumes of unstructured data, such as images and videos.\nData Indexing\nData indexing is an important aspect of data management and makes it easier to retrieve specific data quickly\nand efficiently. It is a crucial strategy for optimizing the performance of databases and other data storage\nsystems.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 2169,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1651,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.44875529579381324,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p99:para600:5 | Principles-of-Data-Science-WEB.pdf | page 99]\nEach node contains a range of data values and\npointers to child nodes, allowing for efficient searching within a specific range of values.\nHashes indexing involves using a hash function to map data to a specific index in a table. This allows for direct\naccess to the data based on its hashed value, making retrieval faster than traditional sequential searching.\nBitmap indexing is a technique that involves creating a bitmap for each different value in a dataset. The\nbitmaps are then combined to quickly identify records that match a specific set of values, allowing efficient\ndata retrieval.",
+    "context_ids": [
+      "openstax-pds-ch02:p99:para600:5"
+    ],
+    "context_chars": 674,
+    "elapsed_ms": 1177.050700000109,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "question": "How many common text-processing mentioned in the table?",
+    "queries": [
+      "How many common text-processing mentioned in the table?"
+    ],
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 95,
+        "evidence": "Some common techniques used in text preprocessing are reviewed in\nTable 2.8."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p95:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 95,
+        "text": "aggregation to study energy consumption patterns.\nText Preprocessing\nText preprocessing is a technique of preparing data in text format for further analysis and natural language\nprocessing tasks. It involves transforming unstructured text data into a more structured format to be\ninterpreted by algorithms and models. Some common techniques used in text preprocessing are reviewed in\nTable 2.8.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 394,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.4828503359139581,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p97:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 97,
+        "text": "Removing special\ncharacters and\npunctuation\nSimplifying the\ntext for analysis\nConsider the input: “Hello, this is a text with @special#\ncharacters!*” and the output: “Hello this is a text with special\ncharacters”\nTable 2.8 Summary of Text Preprocessing Techniques\nText preprocessing is crucial to effectively use text data for tasks such as text classification and information\nextraction. By transforming the raw text data, the accuracy and performance of machine learning models can\ngreatly improve and provide meaningful insights and predictions.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2265,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1717,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.4741313670146663,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p97:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 97,
+        "text": "This can include tasks such as removing accents and diacritics, expanding\ncontractions, and converting numbers into their written representations (e.g., “10” to “ten”). Normalizing text\ndata helps to reduce the number of variations and therefore improves the efficiency and accuracy of natural\n2.4 • Data Cleaning and Preprocessing 87",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 3158,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2824,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.45637644025717183,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p95:para600:0 | Principles-of-Data-Science-WEB.pdf | page 95]\naggregation to study energy consumption patterns.\nText Preprocessing\nText preprocessing is a technique of preparing data in text format for further analysis and natural language\nprocessing tasks. It involves transforming unstructured text data into a more structured format to be\ninterpreted by algorithms and models. Some common techniques used in text preprocessing are reviewed in\nTable 2.8.",
+    "context_ids": [
+      "openstax-pds-ch02:p95:para600:0"
+    ],
+    "context_chars": 475,
+    "elapsed_ms": 1426.465200000166,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

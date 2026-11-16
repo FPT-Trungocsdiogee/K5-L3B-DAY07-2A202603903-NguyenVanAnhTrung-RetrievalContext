@@ -1,0 +1,29 @@
+{
+  "split": "dev",
+  "n": 17,
+  "output": "starter/results/agent-dev-hybrid-filter-citefix-b1600",
+  "status": {
+    "answered": 15,
+    "abstain": 2,
+    "error": 0
+  },
+  "config": {
+    "method": "hybrid",
+    "use_filter": true,
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 4,
+    "model": "openai/gpt-4o-mini",
+    "day6_index": "B",
+    "only": null
+  },
+  "usage": {
+    "requests": 41,
+    "prompt_tokens": 22543,
+    "completion_tokens": 2137,
+    "cost_usd": 0.004663649999999999,
+    "embedding_cost_usd": 2.9400000000000002e-06
+  },
+  "total_s": 104.22468720000143,
+  "median_s": 5.124605900000461
+}

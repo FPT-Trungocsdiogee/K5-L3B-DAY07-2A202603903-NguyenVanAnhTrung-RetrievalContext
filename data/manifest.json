@@ -1,0 +1,70 @@
+{
+  "_huong_dan": [
+    "Corpus: Chương 2 (phần thứ hai của Unit 1) trong sách OpenStax 'Principles of Data Science'.",
+    "Số trang trong file này là số trang VẬT LÝ của PDF gốc (bắt đầu từ 1); số trang in trên sách = số trang PDF - 10 (vd PDF 67 = trang in 57).",
+    "Các khóa bắt đầu bằng '_' chỉ là ghi chú, pipeline bỏ qua.",
+    "Số liệu physical_pages, counted_pages, character_count lấy từ kết quả trích xuất thật bằng pypdf + normalize_text (xem results/ingestion_log.json sau khi chạy)."
+  ],
+  "corpus": {
+    "topic": "Thu thập và chuẩn bị dữ liệu (Collecting and Preparing Data) - giáo trình nhập môn khoa học dữ liệu, tiếng Anh",
+    "page_counting_method": "Đếm trang PDF vật lý thuộc phần thân Chương 2 (Introduction và các mục 2.1-2.5, PDF trang 67-103) trích xuất được text. Không tính: phần đầu sách và Chương 1 (trang 1-66), phần cuối chương gồm Key Terms, Group Project, Critical Thinking, References (trang 104-112, trong đó trang 112 gần như trống), và các chương sau (trang 113-569).",
+    "total_physical_pages": 569,
+    "total_counted_pages": 37,
+    "total_character_count": 112893
+  },
+  "documents": [
+    {
+      "source_id": "openstax-pds-ch02",
+      "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+      "path": "../../Principles-of-Data-Science-WEB.pdf",
+      "source_path_or_url": "https://openstax.org/details/books/principles-data-science",
+      "license_or_permission": "CC BY-NC-SA 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International). © 2025 Rice University, nội dung do OpenStax biên soạn. Chỉ dùng phi thương mại; khi phân phối lại (kể cả một phần) phải giữ dòng ghi công 'Access for free at openstax.org.' trên mỗi trang và chia sẻ bản phái sinh theo cùng giấy phép.",
+      "accessed_at": "2026-11-13",
+      "snapshot_or_version": "Bản PDF 'WEB', tạo ngày 2026-04-23 (theo metadata của file PDF); năm xuất bản gốc 2025; ISBN bản số 978-1-961584-60-0",
+      "authors": "Senior contributing authors: Dr. Shaun V. Ault (Valdosta State University), Dr. Soohyun Nam Liao (University of California San Diego), Larry Musolino (Pennsylvania State University)",
+
+      "_metadata": "Áp cho mọi trang; các giá trị đều lấy từ trang bản quyền và mục lục của sách.",
+      "metadata": {
+        "book": "Principles of Data Science",
+        "publisher": "OpenStax",
+        "year": 2025,
+        "language": "en",
+        "document_type": "textbook",
+        "unit": 1,
+        "chapter": 2
+      },
+
+      "_content_page_ranges": "Chỉ trích xuất phần thân Chương 2; các trang khác của PDF không được đọc.",
+      "content_page_ranges": [{"from": 67, "to": 103}],
+      "exclude_pages": [],
+
+      "_page_ranges": [
+        "Trường filter 'section' theo mục của chương (lấy từ mục lục/bookmark của PDF).",
+        "Hạn chế: metadata gắn theo TRANG. Trang chứa ranh giới giữa hai mục được gán cho mục BẮT ĐẦU trên trang đó (cũng là mục chiếm phần lớn trang).",
+        "Vì vậy phần đầu trang 68 (cuối Introduction), trang 71 (cuối mục 2.1), trang 76 (cuối mục 2.2) và trang 98 (cuối mục 2.4) mang nhãn của mục kế tiếp. Tránh đặt câu hỏi có filter mà evidence nằm ở các đoạn này."
+      ],
+      "page_ranges": [
+        {"from": 67, "to": 67,  "metadata": {"section": "introduction", "section_title": "Introduction"}},
+        {"from": 68, "to": 70,  "metadata": {"section": "2.1", "section_title": "Overview of Data Collection Methods"}},
+        {"from": 71, "to": 75,  "metadata": {"section": "2.2", "section_title": "Survey Design and Implementation"}},
+        {"from": 76, "to": 85,  "metadata": {"section": "2.3", "section_title": "Web Scraping and Social Media Data Collection"}},
+        {"from": 86, "to": 97,  "metadata": {"section": "2.4", "section_title": "Data Cleaning and Preprocessing"}},
+        {"from": 98, "to": 103, "metadata": {"section": "2.5", "section_title": "Handling Large Datasets"}}
+      ],
+
+      "_so_lieu": "Kết quả trích xuất thật (pypdf 6.21.4 + normalize_text).",
+      "physical_pages": 569,
+      "counted_pages": [{"from": 67, "to": 103}],
+      "counted_page_count": 37,
+      "character_count": 112893,
+      "page_character_counts": {
+        "67": 2360, "68": 3555, "69": 2947, "70": 3350, "71": 3830, "72": 4362, "73": 4447, "74": 4474,
+        "75": 4208, "76": 3352, "77": 2792, "78": 3765, "79": 1072, "80": 2219, "81": 2570, "82": 3229,
+        "83": 2772, "84": 2664, "85": 1542, "86": 3657, "87": 4205, "88": 1538, "89": 1079, "90": 3266,
+        "91": 2765, "92": 3156, "93": 3412, "94": 5031, "95": 1790, "96": 1939, "97": 3158, "98": 3932,
+        "99": 3285, "100": 3006, "101": 3399, "102": 3481, "103": 1284
+      },
+      "unreadable_pages_note": "Không có trang scan hay trang lỗi trong phạm vi 67-103; cả 37 trang đều trích xuất được text. Hình ảnh và biểu đồ không được trích xuất (chỉ còn chú thích). Mỗi trang có dòng đầu/chân trang lặp lại (tên mục, số trang, 'Access for free at openstax.org')."
+    }
+  ]
+}

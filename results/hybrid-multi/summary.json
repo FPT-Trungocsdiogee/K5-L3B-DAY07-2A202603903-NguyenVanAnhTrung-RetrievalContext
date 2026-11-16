@@ -1,0 +1,41 @@
+{
+  "strategy": "hybrid+multi",
+  "method": "hybrid",
+  "transform": "multi",
+  "split": "dev",
+  "n": 15,
+  "hit1": 6,
+  "hit3": 13,
+  "context_hit": 6,
+  "hit1_rate": 0.4,
+  "hit3_rate": 0.8667,
+  "context_hit_rate": 0.4,
+  "config": {
+    "top_k": 3,
+    "budget_chars": 800,
+    "use_filter": false,
+    "day6_index": "B",
+    "pool": 20,
+    "rrf_k": 60,
+    "weights": {
+      "dense": 1.0,
+      "lexical": 1.0
+    },
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "transform_model": "openai/gpt-4o-mini",
+    "n_queries": 3
+  },
+  "avg_context_chars": 576.8,
+  "median_ms": 6382.601700000123,
+  "index_seconds": 0.18319849999988946,
+  "service_cost_usd": 0.000466,
+  "transform_usage": {
+    "requests": 15,
+    "prompt_tokens": 1040,
+    "completion_tokens": 498,
+    "cost_usd": 0.0004548
+  }
+}

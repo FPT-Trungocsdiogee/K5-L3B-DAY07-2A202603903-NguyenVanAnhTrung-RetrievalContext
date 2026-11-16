@@ -1,0 +1,46 @@
+{
+  "strategy": "hybrid",
+  "method": "hybrid",
+  "transform": "none",
+  "split": "dev",
+  "n": 15,
+  "hit1": 10,
+  "hit3": 13,
+  "context_hit": 13,
+  "hit1_rate": 0.6667,
+  "hit3_rate": 0.8667,
+  "context_hit_rate": 0.8667,
+  "config": {
+    "top_k": 3,
+    "budget_chars": 1600,
+    "use_filter": true,
+    "day6_index": "B",
+    "pool": 20,
+    "rrf_k": 60,
+    "weights": {
+      "dense": 1.0,
+      "lexical": 2.0
+    },
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "transform_model": null,
+    "n_queries": null
+  },
+  "avg_context_chars": 1246.4,
+  "median_ms": 1359.0877000006003,
+  "index_seconds": 0.19544739999946614,
+  "service_cost_usd": 5e-06,
+  "transform_usage": null,
+  "absent": {
+    "n": 2,
+    "empty_results": 0,
+    "top1_score_median": 0.046626527672088434,
+    "top1_score_max": 0.04891591750396616,
+    "answerable_top1_score_median": 0.04918032786885246,
+    "answerable_top1_score_min": 0.04793840039741679,
+    "below_answerable_min": 1,
+    "note": "retrieval cannot judge abstention; label abstention_correct on the agent run"
+  }
+}

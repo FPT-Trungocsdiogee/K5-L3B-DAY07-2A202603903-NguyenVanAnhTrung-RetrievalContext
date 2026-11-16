@@ -1,0 +1,224 @@
+[
+  {
+    "query_id": "a-q01",
+    "split": "dev",
+    "question": "What learning rate does the chapter recommend when training a neural network on the cleaned dataset?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Huấn luyện mạng nơ-ron và learning rate nằm ngoài phạm vi Chương 2 (chỉ thu thập & chuẩn bị dữ liệu); cần grep 'learning rate', 'neural network' trên chunk để xác nhận không có kết quả.",
+    "queries": [
+      "What learning rate does the chapter recommend when training a neural network on the cleaned dataset?"
+    ],
+    "strategy": "hybrid",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p93:para600:1",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 93,
+        "text": "Strategies to reduce the noisy data are summarized in Table 2.7.\nStrategy Example\nData cleaning Removing duplicate or irrelevant data from a dataset, such as deleting repeated\nrows in a spreadsheet or filtering out incomplete or error-prone data entries.\nData smoothing A technique used in data analysis to remove outliers or noise from a dataset in\norder to reveal underlying patterns or trends. One example is smoothing a\ndataset of daily stock market index values over the course of a month. The\nvalues may fluctuate greatly on a day-to-day basis, making it difficult to see any\noverall trend.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1143,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 547,
+          "chunk_index": 1,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.03009207275993712,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "lexical": 13
+        }
+      },
+      {
+        "id": "openstax-pds-ch02:p93:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 93,
+        "text": "accurate conclusions and making predictions from the data. Most noisy data is caused by human errors in data\nentry, technical errors in data collection or transmission, or natural variability in the data itself. Noisy data is\nremoved and cleaned by identifying and correcting errors, removing outliers, and filtering out irrelevant\ninformation. Noisy data can negatively impact data analysis and modeling, and it may indicate that there are\nissues with the model's structure or assumptions. Noisy data is unwanted information that can be removed.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 546,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.029631255487269532,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 7,
+          "lexical": 8
+        }
+      },
+      {
+        "id": "openstax-pds-ch02:p92:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 92,
+        "text": "Dealing with Noisy Data\nNoisy data refers to data that retains errors, outliers, or irrelevant information that can conceal true patterns\nand relationships within the dataset. The presence of noisy data in the dataset causes difficulty in drawing\n82 2 • Collecting and Preparing Data\nAccess for free at openstax.org",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 3156,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2841,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.028594771241830064,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 8,
+          "lexical": 12
+        }
+      }
+    ],
+    "context": "[openstax-pds-ch02:p93:para600:1 | Principles-of-Data-Science-WEB.pdf | page 93]\nStrategies to reduce the noisy data are summarized in Table 2.7.\nStrategy Example\nData cleaning Removing duplicate or irrelevant data from a dataset, such as deleting repeated\nrows in a spreadsheet or filtering out incomplete or error-prone data entries.\nData smoothing A technique used in data analysis to remove outliers or noise from a dataset in\norder to reveal underlying patterns or trends. One example is smoothing a\ndataset of daily stock market index values over the course of a month. The\nvalues may fluctuate greatly on a day-to-day basis, making it difficult to see any\noverall trend.",
+    "context_ids": [
+      "openstax-pds-ch02:p93:para600:1"
+    ],
+    "context_chars": 677,
+    "elapsed_ms": 1527.1338000002288,
+    "top1_score": 0.03009207275993712
+  },
+  {
+    "query_id": "a-q02",
+    "split": "dev",
+    "question": "What is the formula for the F1 score used to evaluate a classification model after preprocessing?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chỉ số đánh giá mô hình (F1, precision, recall) thuộc các chương sau; Chương 2 không định nghĩa F1. Cần grep 'F1', 'precision', 'recall' để xác nhận.",
+    "queries": [
+      "What is the formula for the F1 score used to evaluate a classification model after preprocessing?"
+    ],
+    "strategy": "hybrid",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p96:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 96,
+        "text": "After preprocessing, sentiment analysis techniques will be\napplied to analyze the emotions and opinions expressed in\nthe review. The analysis may identify key positive words such\nas “satisfied” and “amazing” and measure their overall\nsentiment score. It may also take into account the context\nand tone of the review to accurately determine the\nsentiment.\nTable 2.8 Summary of Text Preprocessing Techniques\n86 2 • Collecting and Preparing Data\nAccess for free at openstax.org",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1939,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1465,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "lexical": 1
+        }
+      },
+      {
+        "id": "openstax-pds-ch02:p97:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 97,
+        "text": "Text preprocessing is especially important in artificial intelligence, as it can lay the foundation for effective text\nanalysis, classification, information retrieval, sentiment analysis, and many other natural language processing\ntasks (see Natural Language Processing). A well-designed preprocessing pipeline can lead to better model\nperformance, improved efficiency, and more accurate insights from text data.\nAn example of text preprocessing in artificial intelligence involves the conversion of text data into a more\nstandardized and consistent format.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2823,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2266,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "lexical": 2
+        }
+      },
+      {
+        "id": "openstax-pds-ch02:p91:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 91,
+        "text": "The normalization formula is a statistical formula utilized to scale down a dataset, typically to between one and\nzero. The largest data would have a normalized value of one, and the smallest data point would be zero. Note\nthat the presence of outliers can significantly impact the calculated values of minimum/maximum. As such, it\nis important to first remove any outliers from the dataset before performing normalization. This ensures more\naccurate and representative results.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1649,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1171,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.030309988518943745,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5,
+          "lexical": 7
+        }
+      }
+    ],
+    "context": "[openstax-pds-ch02:p96:para600:3 | Principles-of-Data-Science-WEB.pdf | page 96]\nAfter preprocessing, sentiment analysis techniques will be\napplied to analyze the emotions and opinions expressed in\nthe review. The analysis may identify key positive words such\nas “satisfied” and “amazing” and measure their overall\nsentiment score. It may also take into account the context\nand tone of the review to accurately determine the\nsentiment.\nTable 2.8 Summary of Text Preprocessing Techniques\n86 2 • Collecting and Preparing Data\nAccess for free at openstax.org",
+    "context_ids": [
+      "openstax-pds-ch02:p96:para600:3"
+    ],
+    "context_chars": 555,
+    "elapsed_ms": 1919.2225000006147,
+    "top1_score": 0.03252247488101534
+  }
+]

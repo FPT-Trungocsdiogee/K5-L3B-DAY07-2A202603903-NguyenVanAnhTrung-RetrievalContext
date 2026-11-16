@@ -1,0 +1,92 @@
+{
+  "multi:3:What is Observational Data and how it is collected?": [
+    "What is Observational Data and how it is collected?",
+    "definition of observational data and collection methods",
+    "how is observational data gathered",
+    "understanding observational data and its collection techniques"
+  ],
+  "multi:3:What is Transactional data and how it is collected?": [
+    "What is Transactional data and how it is collected?",
+    "definition of transactional data and collection methods",
+    "how is transactional data gathered and what does it mean?",
+    "understanding transactional data and its collection process"
+  ],
+  "multi:3:What is Open-ended questions?": [
+    "What is Open-ended questions?",
+    "definition of open-ended questions in data collection",
+    "what are open-ended questions and their role in surveys",
+    "explanation of open-ended questions in qualitative research"
+  ],
+  "multi:3:What is Close-ended questions?": [
+    "What is Close-ended questions?",
+    "definition of close-ended questions",
+    "examples of closed questions in surveys",
+    "characteristics of close-ended survey items"
+  ],
+  "multi:3:How many sampling techniques mentioned in this book?": [
+    "How many sampling techniques mentioned in this book?",
+    "sampling methods discussed in this chapter",
+    "number of sampling techniques outlined in the textbook",
+    "sampling strategies covered in this section"
+  ],
+  "multi:3:Why should a questionnaire be tried out on a small group before it is sent to everyone?": [
+    "Why should a questionnaire be tried out on a small group before it is sent to everyone?",
+    "importance of pre-testing questionnaires",
+    "benefits of pilot testing surveys",
+    "why conduct a trial run of a questionnaire before full deployment"
+  ],
+  "multi:3:How can a file be made smaller without throwing away any of its information?": [
+    "How can a file be made smaller without throwing away any of its information?",
+    "methods for data compression without loss of information",
+    "techniques to reduce file size while preserving data integrity",
+    "ways to minimize file size without losing data quality"
+  ],
+  "multi:3:How can I see the overall direction of a stock index whose daily values jump around a lot?": [
+    "How can I see the overall direction of a stock index whose daily values jump around a lot?",
+    "methods to analyze stock index trends despite daily fluctuations",
+    "techniques for assessing overall stock index direction with volatile data",
+    "ways to interpret stock index movements when daily values are erratic"
+  ],
+  "multi:3:What is it called when exact ages are grouped into ranges like 0-10, 10-20, 20-30 to reduce noise?": [
+    "What is it called when exact ages are grouped into ranges like 0-10, 10-20, 20-30 to reduce noise?",
+    "grouping ages into ranges for data analysis",
+    "age binning techniques in data preparation",
+    "categorizing ages into intervals to minimize variability"
+  ],
+  "multi:3:In what situation can systematic sampling produce a biased sample?": [
+    "In what situation can systematic sampling produce a biased sample?",
+    "situations where systematic sampling leads to bias",
+    "conditions causing bias in systematic sampling",
+    "examples of biased samples from systematic sampling methods"
+  ],
+  "multi:3:What should be done with outliers before applying the normalization formula, and why?": [
+    "What should be done with outliers before applying the normalization formula, and why?",
+    "how to handle outliers before normalization",
+    "steps for managing outliers in data preparation",
+    "importance of addressing outliers prior to applying normalization techniques"
+  ],
+  "multi:3:Under what condition is a log transformation typically applied to data?": [
+    "Under what condition is a log transformation typically applied to data?",
+    "conditions for applying log transformation in data analysis",
+    "when to use log transformation on datasets",
+    "log transformation application criteria in data preparation"
+  ],
+  "multi:3:Which pandas function reads HTML tables from a web page?": [
+    "Which pandas function reads HTML tables from a web page?",
+    "pandas function to extract HTML tables",
+    "how to read HTML tables using pandas",
+    "pandas read_html method for web data"
+  ],
+  "multi:3:How does splitting a dataset into chunks improve fault tolerance?": [
+    "How does splitting a dataset into chunks improve fault tolerance?",
+    "benefits of dataset chunking for fault tolerance",
+    "how does dividing data into segments enhance reliability",
+    "impact of data partitioning on system resilience"
+  ],
+  "multi:3:What are the different types of missing data a data scientist should distinguish?": [
+    "What are the different types of missing data a data scientist should distinguish?",
+    "types of missing data in data science",
+    "categories of missing values in data collection",
+    "missing data classification for data preparation"
+  ]
+}

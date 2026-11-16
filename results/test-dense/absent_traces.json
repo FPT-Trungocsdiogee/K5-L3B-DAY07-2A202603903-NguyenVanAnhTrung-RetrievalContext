@@ -1,0 +1,200 @@
+[
+  {
+    "query_id": "a-t01",
+    "split": "test",
+    "question": "What p-value threshold does the chapter use to reject the null hypothesis when comparing two samples?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm định giả thuyết / p-value thuộc chương thống kê suy luận, không nằm trong Chương 2 dù chương có nói về sampling. Cần grep 'p-value', 'null hypothesis' để xác nhận.",
+    "queries": [
+      "What p-value threshold does the chapter use to reject the null hypothesis when comparing two samples?"
+    ],
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p87:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 87,
+        "text": "Use robust statistical methods. When dealing with outliers, it is important to use statistical methods that\nare not affected by extreme values. This includes using median instead of mean and using nonparametric\ntests instead of parametric tests, as explained in Statistical Inference and Confidence Intervals.\n6. Validate the results. After handling the missing data and outliers, it is important to validate the results to\nensure that they are robust and accurate. This can be done through various methods, such as cross-\nvalidation or comparing the results to external data sources.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 3911,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3327,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.3318619424500838,
+        "strategy": "dense"
+      },
+      {
+        "id": "openstax-pds-ch02:p92:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 92,
+        "text": "Solution\nUsing the normalization formula, the maximum sale is $55,000, and the minimum sale is $15,000, as shown\nin Table 2.6.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 126,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.3057691569198582,
+        "strategy": "dense"
+      },
+      {
+        "id": "openstax-pds-ch02:p73:para600:7",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 73,
+        "text": "The researcher first\nassigns a number to each student, going from 1 to 1,000. Then, the researcher randomly selects a number\nfrom 1 to 10—let's say they select 4. This number will be the starting point for selecting the sample of\nstudents. The researcher will then select every 10th student from the list, which means every student with\na number ending in 4 (14, 24, 34, etc.) will be included in the sample. This way, the researcher will have a\nrepresentative sample of 100 students from the high school, which is 10% of the population.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 4273,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3736,
+          "chunk_index": 7,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.30075236700207575,
+        "strategy": "dense"
+      }
+    ],
+    "context": "[openstax-pds-ch02:p87:para600:6 | Principles-of-Data-Science-WEB.pdf | page 87]\nUse robust statistical methods. When dealing with outliers, it is important to use statistical methods that\nare not affected by extreme values. This includes using median instead of mean and using nonparametric\ntests instead of parametric tests, as explained in Statistical Inference and Confidence Intervals.\n6. Validate the results. After handling the missing data and outliers, it is important to validate the results to\nensure that they are robust and accurate. This can be done through various methods, such as cross-\nvalidation or comparing the results to external data sources.",
+    "context_ids": [
+      "openstax-pds-ch02:p87:para600:6"
+    ],
+    "context_chars": 665,
+    "elapsed_ms": 1462.535000000571,
+    "top1_score": 0.3318619424500838
+  },
+  {
+    "query_id": "a-t02",
+    "split": "test",
+    "question": "Which hyperparameter values does the chapter suggest for a random forest classifier trained on normalized data?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Random forest và tinh chỉnh hyperparameter thuộc phần machine learning; Chương 2 chỉ nói normalization, không có mô hình. Cần grep 'random forest', 'hyperparameter' để xác nhận.",
+    "queries": [
+      "Which hyperparameter values does the chapter suggest for a random forest classifier trained on normalized data?"
+    ],
+    "strategy": "dense",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p91:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 91,
+        "text": "The normalization formula is a statistical formula utilized to scale down a dataset, typically to between one and\nzero. The largest data would have a normalized value of one, and the smallest data point would be zero. Note\nthat the presence of outliers can significantly impact the calculated values of minimum/maximum. As such, it\nis important to first remove any outliers from the dataset before performing normalization. This ensures more\naccurate and representative results.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1649,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1171,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.46434524145674616,
+        "strategy": "dense"
+      },
+      {
+        "id": "openstax-pds-ch02:p93:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 93,
+        "text": "It\ncombines multiple decision trees, each trained on a random subset of the data,\nto make a more accurate prediction. This helps reduce overfitting and increase\nthe overall performance of the model. The final prediction is made by\naggregating the predictions of each individual tree.\nTable 2.7 Strategies to Reduce Noisy Data\nData Validation\nData validation is the process of ensuring the accuracy and quality of data examined against defined rules and\nstandards.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 3163,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2700,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.3874939663773511,
+        "strategy": "dense"
+      },
+      {
+        "id": "openstax-pds-ch02:p92:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 92,
+        "text": "the normalization scale. The company can use this information\nto focus on promoting and restocking these items at each branch to continue driving sales and profits.\nData Transformation\nData transformation is a statistical technique used to modify the original structure of the data in order to make\nit more suitable for analysis. Data transformation can involve various mathematical operations such as\nlogarithmic, square root, or exponential transformations. One of the main reasons for transforming data is to\naddress issues related to statistical assumptions.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1289,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 727,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.38005338313456005,
+        "strategy": "dense"
+      }
+    ],
+    "context": "[openstax-pds-ch02:p91:para600:2 | Principles-of-Data-Science-WEB.pdf | page 91]\nThe normalization formula is a statistical formula utilized to scale down a dataset, typically to between one and\nzero. The largest data would have a normalized value of one, and the smallest data point would be zero. Note\nthat the presence of outliers can significantly impact the calculated values of minimum/maximum. As such, it\nis important to first remove any outliers from the dataset before performing normalization. This ensures more\naccurate and representative results.",
+    "context_ids": [
+      "openstax-pds-ch02:p91:para600:2"
+    ],
+    "context_chars": 559,
+    "elapsed_ms": 1206.853099998625,
+    "top1_score": 0.46434524145674616
+  }
+]

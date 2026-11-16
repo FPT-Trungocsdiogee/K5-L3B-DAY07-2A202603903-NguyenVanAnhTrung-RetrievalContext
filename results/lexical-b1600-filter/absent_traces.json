@@ -1,0 +1,208 @@
+[
+  {
+    "query_id": "a-q01",
+    "split": "dev",
+    "question": "What learning rate does the chapter recommend when training a neural network on the cleaned dataset?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Huấn luyện mạng nơ-ron và learning rate nằm ngoài phạm vi Chương 2 (chỉ thu thập & chuẩn bị dữ liệu); cần grep 'learning rate', 'neural network' trên chunk để xác nhận không có kết quả.",
+    "queries": [
+      "What learning rate does the chapter recommend when training a neural network on the cleaned dataset?"
+    ],
+    "strategy": "lexical",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 1600,
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p94:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 94,
+        "text": "The remaining 805 responses were then checked for data accuracy using statistical analysis.\nAfter the data standardization and validation process, the company had a clean and reliable dataset of 805\nresponses. The results showed that the product had a satisfaction rate of 85%, which was significantly higher\nthan the initial analysis of 78%. As a result of this correction, the marketing team was able to confidently report\nthe actual satisfaction rate and make better-informed decisions for future product development.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 3667,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3147,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing",
+          "day6_strategy": "B"
+        },
+        "score": 8.193323926986551,
+        "strategy": "bm25"
+      },
+      {
+        "id": "openstax-pds-ch02:p77:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 77,
+        "text": "cial\nlistening, social media surveys, network analysis, and image and video analysis. APIs provided by social media\nplatforms allow data scientists to collect structured data on user interactions and content. Social listening\ninvolves monitoring online conversations for insights on customer behavior and trends. Surveys conducted on\nsocial media can provide information on customer preferences and opinions. Network analysis, or the\nexamination of relationships and connections between users, data, or entities within a network, can reveal\ninfluential users and communities.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.3",
+          "char_end": 2516,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1941,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Web Scraping and Social Media Data Collection",
+          "day6_strategy": "B"
+        },
+        "score": 6.76663831573887,
+        "strategy": "bm25"
+      },
+      {
+        "id": "openstax-pds-ch02:p100:para600:1",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 100,
+        "text": "Data chunking is used in data storage systems and data transmission over networks, and it is especially useful\nwhen working with large datasets that exceed the capacity of a single machine or when transferring data over\na network with limited bandwidth. The divided data in data chunking is known as a chunk or block. The size of\neach chunk can vary depending on the requirements and range from a few kilobytes to several gigabytes.\nThese chunks are typically organized sequentially, with each chunk containing a set of data from the larger\ndataset.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 1051,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 502,
+          "chunk_index": 1,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets",
+          "day6_strategy": "B"
+        },
+        "score": 6.2794906171937335,
+        "strategy": "bm25"
+      }
+    ],
+    "context": "[openstax-pds-ch02:p94:para600:6 | Principles-of-Data-Science-WEB.pdf | page 94]\nThe remaining 805 responses were then checked for data accuracy using statistical analysis.\nAfter the data standardization and validation process, the company had a clean and reliable dataset of 805\nresponses. The results showed that the product had a satisfaction rate of 85%, which was significantly higher\nthan the initial analysis of 78%. As a result of this correction, the marketing team was able to confidently report\nthe actual satisfaction rate and make better-informed decisions for future product development.\n\n[openstax-pds-ch02:p77:para600:4 | Principles-of-Data-Science-WEB.pdf | page 77]\ncial\nlistening, social media surveys, network analysis, and image and video analysis. APIs provided by social media\nplatforms allow data scientists to collect structured data on user interactions and content. Social listening\ninvolves monitoring online conversations for insights on customer behavior and trends. Surveys conducted on\nsocial media can provide information on customer preferences and opinions. Network analysis, or the\nexamination of relationships and connections between users, data, or entities within a network, can reveal\ninfluential users and communities.",
+    "context_ids": [
+      "openstax-pds-ch02:p94:para600:6",
+      "openstax-pds-ch02:p77:para600:4"
+    ],
+    "context_chars": 1259,
+    "elapsed_ms": 0.1640999998926418,
+    "top1_score": 8.193323926986551
+  },
+  {
+    "query_id": "a-q02",
+    "split": "dev",
+    "question": "What is the formula for the F1 score used to evaluate a classification model after preprocessing?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chỉ số đánh giá mô hình (F1, precision, recall) thuộc các chương sau; Chương 2 không định nghĩa F1. Cần grep 'F1', 'precision', 'recall' để xác nhận.",
+    "queries": [
+      "What is the formula for the F1 score used to evaluate a classification model after preprocessing?"
+    ],
+    "strategy": "lexical",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 1600,
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p96:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 96,
+        "text": "After preprocessing, sentiment analysis techniques will be\napplied to analyze the emotions and opinions expressed in\nthe review. The analysis may identify key positive words such\nas “satisfied” and “amazing” and measure their overall\nsentiment score. It may also take into account the context\nand tone of the review to accurately determine the\nsentiment.\nTable 2.8 Summary of Text Preprocessing Techniques\n86 2 • Collecting and Preparing Data\nAccess for free at openstax.org",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1939,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1465,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing",
+          "day6_strategy": "B"
+        },
+        "score": 11.808221098145461,
+        "strategy": "bm25"
+      },
+      {
+        "id": "openstax-pds-ch02:p97:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 97,
+        "text": "Text preprocessing is especially important in artificial intelligence, as it can lay the foundation for effective text\nanalysis, classification, information retrieval, sentiment analysis, and many other natural language processing\ntasks (see Natural Language Processing). A well-designed preprocessing pipeline can lead to better model\nperformance, improved efficiency, and more accurate insights from text data.\nAn example of text preprocessing in artificial intelligence involves the conversion of text data into a more\nstandardized and consistent format.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2823,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2266,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing",
+          "day6_strategy": "B"
+        },
+        "score": 11.527018761743106,
+        "strategy": "bm25"
+      },
+      {
+        "id": "openstax-pds-ch02:p83:para600:1",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 83,
+        "text": "Similarly, the second pattern looks for the words \"model: \" and\ncaptures anything that comes after it until it reaches a comma. The result is saved in a variable named\n\"model\". Finally, the third pattern searches for the words \"price: \" and captures any sequence of numbers\nor symbols that follows it until the end of the string. The result is saved in a variable named \"price\". After all\nthe data is extracted, it is printed out to the screen, using concatenation to add appropriate labels before each\nvariable.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.3",
+          "char_end": 993,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 481,
+          "chunk_index": 1,
+          "document_type": "textbook",
+          "section_title": "Web Scraping and Social Media Data Collection",
+          "day6_strategy": "B"
+        },
+        "score": 9.03403436004311,
+        "strategy": "bm25"
+      }
+    ],
+    "context": "[openstax-pds-ch02:p96:para600:3 | Principles-of-Data-Science-WEB.pdf | page 96]\nAfter preprocessing, sentiment analysis techniques will be\napplied to analyze the emotions and opinions expressed in\nthe review. The analysis may identify key positive words such\nas “satisfied” and “amazing” and measure their overall\nsentiment score. It may also take into account the context\nand tone of the review to accurately determine the\nsentiment.\nTable 2.8 Summary of Text Preprocessing Techniques\n86 2 • Collecting and Preparing Data\nAccess for free at openstax.org\n\n[openstax-pds-ch02:p97:para600:5 | Principles-of-Data-Science-WEB.pdf | page 97]\nText preprocessing is especially important in artificial intelligence, as it can lay the foundation for effective text\nanalysis, classification, information retrieval, sentiment analysis, and many other natural language processing\ntasks (see Natural Language Processing). A well-designed preprocessing pipeline can lead to better model\nperformance, improved efficiency, and more accurate insights from text data.\nAn example of text preprocessing in artificial intelligence involves the conversion of text data into a more\nstandardized and consistent format.",
+    "context_ids": [
+      "openstax-pds-ch02:p96:para600:3",
+      "openstax-pds-ch02:p97:para600:5"
+    ],
+    "context_chars": 1195,
+    "elapsed_ms": 0.20309999854362104,
+    "top1_score": 11.808221098145461
+  }
+]

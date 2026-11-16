@@ -1,0 +1,251 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What is Observational Data and how it is collected?",
+    "_answer": "Observational data is defined as data collected by systematically observing and recording behavior without the active participation of the researcher. This type of data is often utilized in qualitative research, contrasting with transactional data, which is more commonly used in quantitative research and pertains to information related to transactions or interactions. Observational data is employed across various fields of study for research purposes [openstax-pds-ch02:p68:para600:5].",
+    "_citations": [
+      "openstax-pds-ch02:p68:para600:5"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Observational Data is collected by observing and recording behavior without the participation of the researcher."
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What is Transactional data and how it is collected?",
+    "_answer": "Transactional data refers to any type of information related to transactions or interactions between individuals, businesses, or systems. It is primarily used in quantitative research. This type of data is collected through various methods that systematically gather and convey information about these transactions or interactions [openstax-pds-ch02:p68:para600:5].",
+    "_citations": [
+      "openstax-pds-ch02:p68:para600:5"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Transactional data is related to any type of information related to transactions or interactions between individuals, businesses, or systems."
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What is Open-ended questions?",
+    "_answer": "Open-ended questions are designed to allow for more in-depth responses, providing respondents the opportunity to elaborate on their thoughts and offer detailed and personal insights. Unlike closed-ended questions, which have predetermined answer choices and are effective for gathering quantitative data, open-ended questions facilitate qualitative data collection and can lead to unexpected insights [openstax-pds-ch02:p72:para600:0].",
+    "_citations": [
+      "openstax-pds-ch02:p72:para600:0"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Open-ended questions are questions that allow in-depth, detailed and personal responses."
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What is Close-ended questions?",
+    "_answer": "Close-ended questions are those that have predetermined answer choices, making them effective for gathering quantitative data. They are quick and easy to answer, and their structured format allows for quantifiable results [openstax-pds-ch02:p72:para600:0].",
+    "_citations": [
+      "openstax-pds-ch02:p72:para600:0"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Close-ended questions are questions that have predetermined choices."
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "How many sampling techniques mentioned in this book?",
+    "_answer": "The book mentions four sampling techniques: simple random selection, stratified sampling, cluster sampling, and convenience sampling [openstax-pds-ch02:p72:para600:5].",
+    "_citations": [
+      "openstax-pds-ch02:p72:para600:5"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "9"
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "Why should a questionnaire be tried out on a small group before it is sent to everyone?",
+    "_answer": "A questionnaire should be tried out on a small group before it is sent to everyone to identify any potential issues or confusion with the questions. This pilot testing allows researchers to make necessary adjustments to ensure the quality of the data collected before administering the survey to a larger population [openstax-pds-ch02:p71:para600:6].",
+    "_citations": [
+      "openstax-pds-ch02:p71:para600:6"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "A pilot test with a small group from the target population lets the researcher find issues or confusing questions and adjust them before surveying the larger population."
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      null,
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "How can a file be made smaller without throwing away any of its information?",
+    "_answer": "A file can be made smaller without losing any information through lossless compression techniques. Lossless compression reduces the size of data by efficiently using binary digits and does not remove any data during the process. An example of a lossless compression method is Huffman coding, which is used for fast and efficient compression in applications like video and image compression, as well as data transmission and storage [openstax-pds-ch02:p98:para600:5][openstax-pds-ch02:p99:para600:0].",
+    "_citations": [
+      "openstax-pds-ch02:p98:para600:5",
+      "openstax-pds-ch02:p99:para600:0"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Use lossless compression, which finds patterns and redundancies and represents them more efficiently so the original data can be fully reconstructed (e.g., ZIP, RAR, PNG)."
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      null,
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "How can I see the overall direction of a stock index whose daily values jump around a lot?",
+    "_answer": "To see the overall direction of a stock index with volatile daily values, you can calculate a seven-day average, which helps smooth out fluctuations and reveals the overall trend over the course of the month [openstax-pds-ch02:p93:para600:2]. Additionally, applying dimensionality reduction techniques, such as principal component analysis, can help identify overall trends and patterns in the stock market [openstax-pds-ch02:p93:para600:4].",
+    "_citations": [
+      "openstax-pds-ch02:p93:para600:2",
+      "openstax-pds-ch02:p93:para600:4"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Use data smoothing, e.g., calculate a seven-day average to smooth out daily fluctuations and reveal the overall trend."
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What is it called when exact ages are grouped into ranges like 0-10, 10-20, 20-30 to reduce noise?",
+    "_answer": "The process of grouping exact ages into ranges, such as 0-10, 10-20, and 20-30, is called \"binning\". This technique helps to reduce noise and allows for a more comprehensive analysis of the data [openstax-pds-ch02:p93:para600:3].",
+    "_citations": [
+      "openstax-pds-ch02:p93:para600:3"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Binning: grouping the data into age groups of 10 years instead of looking at individual ages."
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "In what situation can systematic sampling produce a biased sample?",
+    "_answer": "Systematic sampling can produce a biased sample if there is a pattern in the sampling frame, which is the organizing structure that represents the population from which a sample is drawn. For example, if the population is not randomly distributed and has a specific order or pattern, selecting every nth individual could lead to overrepresentation or underrepresentation of certain groups within the population [openstax-pds-ch02:p73:para600:6].",
+    "_citations": [
+      "openstax-pds-ch02:p73:para600:6"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "When there is a pattern in the sampling frame (the structure representing the population the sample is drawn from)."
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What should be done with outliers before applying the normalization formula, and why?",
+    "_answer": "Before applying the normalization formula, it is important to remove any outliers from the dataset. This is necessary because outliers can significantly impact the calculated values of minimum and maximum, leading to inaccurate and unrepresentative results in the normalization process. By removing outliers, the normalization can yield more accurate scaling of the data, typically to a range between zero and one, where the largest data point is normalized to one and the smallest to zero [openstax-pds-ch02:p91:para600:2].",
+    "_citations": [
+      "openstax-pds-ch02:p91:para600:2"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Outliers should be removed first, because they significantly affect the minimum/maximum values used by the formula; removing them gives more accurate and representative results."
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "Under what condition is a log transformation typically applied to data?",
+    "_answer": "A log transformation is typically applied to data when the data is highly skewed, meaning most of the data points fall toward one end of the distribution. This transformation helps to make the data closer to a normal distribution, which is often an assumption of statistical models [openstax-pds-ch02:p92:para600:3].",
+    "_citations": [
+      "openstax-pds-ch02:p92:para600:3"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "When the data is highly skewed (most points fall toward one end of the distribution); taking logarithms shifts it toward a more symmetrical, normal-like shape."
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "Which pandas function reads HTML tables from a web page?",
+    "_answer": "The pandas function that reads HTML tables from a web page is `read_html()` [openstax-pds-ch02:p78:para600:2].",
+    "_citations": [
+      "openstax-pds-ch02:p78:para600:2"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "pd.read_html(), which reads HTML tables from a web page and returns them as a list of DataFrame objects."
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "How does splitting a dataset into chunks improve fault tolerance?",
+    "_answer": "Splitting a dataset into chunks improves fault tolerance by allowing for the retrieval of only the affected chunk in case of data corruption or loss, rather than requiring the recovery of the entire dataset. This means that if one chunk is compromised, the rest of the dataset remains intact and accessible, enhancing the overall reliability of data management systems [openstax-pds-ch02:p100:para600:3].",
+    "_citations": [
+      "openstax-pds-ch02:p100:para600:3"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "If data is corrupted or lost, only the affected chunk needs to be retrieved instead of the entire dataset."
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What are the different types of missing data a data scientist should distinguish?",
+    "_answer": "In data science, it is important to distinguish between different types of missing data. The common types include: 1. **Missing Completely at Random (MCAR)**: The missingness of data is entirely random and does not depend on any observed or unobserved data. 2. **Missing at Random (MAR)**: The missingness is related to the observed data but not the missing data itself. 3. **Missing Not at Random (MNAR)**: The missingness is related to the unobserved data, meaning that the reason for the missing data is related to the value of the data itself. Understanding these distinctions helps in choosing appropriate methods to handle missing data effectively [openstax-pds-ch02:p87:para600:0].",
+    "_citations": [
+      "openstax-pds-ch02:p87:para600:0"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "MCAR (missing completely at random), MAR (missing at random), and MNAR (missing not at random)."
+  },
+  {
+    "query_id": "a-q01",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "What learning rate does the chapter recommend when training a neural network on the cleaned dataset?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "abstention_correct": null
+  },
+  {
+    "query_id": "a-q02",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "What is the formula for the F1 score used to evaluate a classification model after preprocessing?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "abstention_correct": null
+  }
+]

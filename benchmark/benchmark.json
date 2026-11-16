@@ -1,0 +1,201 @@
+{
+  "_huong_dan": [
+    "TEMPLATE: 15 câu dev (q01-q15) + 5 câu test (t01-t05). Điền question, expected_answer, gold_page, evidence_quote cho từng câu.",
+    "Pipeline chỉ đọc khóa 'questions'; các khóa bắt đầu bằng '_' là ghi chú.",
+    "gold_page là số trang VẬT LÝ của PDF (67-103), không phải số trang in trên sách (trang in = trang PDF - 10). Có thể là một số hoặc một list số trang.",
+    "evidence_quote phải chép NGUYÊN VĂN từ text trích xuất của trang gold (so khớp sau khi bỏ khác biệt hoa/thường và khoảng trắng/xuống dòng). Nên chọn quote ngắn, nằm trọn trong một đoạn để không bị cắt đôi khi chia chunk.",
+    "filter chỉ dùng cho chiến lược C; giá trị phải tồn tại trong manifest. section hợp lệ: 'introduction', '2.1', '2.2', '2.3', '2.4', '2.5'. Không đặt evidence của câu có filter ở đầu trang 68, 71, 76, 98 (đoạn cuối mục trước mang nhãn mục sau).",
+    "Không đưa đáp án hay gold source vào question/filter. Nếu nhiều trang cùng hợp lệ, thêm 'gold_alternatives': [{\"gold_source_id\": \"...\", \"gold_page\": 0, \"evidence_quote\": \"...\"}].",
+    "type chỉ là nhãn để phân tích lỗi: truc_tiep | dien_dat_lai | dieu_kien_ngoai_le | metadata. Có thể đổi tùy câu hỏi.",
+    "Chốt split dev/test TRƯỚC khi chạy thử; không chỉnh chiến lược dựa trên kết quả test."
+  ],
+  "questions": [
+    {
+      "id": "q01", "split": "dev", "type": "truc_tiep",
+      "question": "What is Observational Data and how it is collected?",
+      "expected_answer": "Observational Data is collected by observing and recording behavior without the participation of the researcher.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": "68",
+      "evidence_quote": "Observational data, often used in qualitative research, is collected by systematically observing and recording behavior without the active participation of the researcher"
+    },
+    {
+      "id": "q02", "split": "dev", "type": "truc_tiep",
+      "question": "What is Transactional data and how it is collected?",
+      "expected_answer": "Transactional data is related to any type of information related to transactions or interactions between individuals, businesses, or systems.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": "68",
+      "evidence_quote": "Transactional data refers to any type of information related to transactions or interactions between individuals, businesses, or systems, and it is more often used in quantitative research."
+    },
+    {
+      "id": "q03", "split": "dev", "type": "truc_tiep",
+      "question": "What is Open-ended questions?",
+      "expected_answer": "Open-ended questions are questions that allow in-depth, detailed and personal responses.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": "72",
+      "evidence_quote": "Open-ended questions allow for more in-depth responses and provide the opportunity for unexpected insights. They also allow respondents to elaborate on their thoughts and provide detailed and personal responses. "
+    },
+    {
+      "id": "q04", "split": "dev", "type": "truc_tiep",
+      "question": "What is Close-ended questions?",
+      "expected_answer": "Close-ended questions are questions that have predetermined choices.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": "72",
+      "evidence_quote": "Closed-ended questions have predetermined answer choices and are effective in gathering quantitative data. They are quick and easy to answer, and their clear and structured format allows for quantifiable results."
+    },
+    {
+      "id": "q05", "split": "dev", "type": "truc_tiep",
+      "question": "How many sampling techniques mentioned in this book?",
+      "expected_answer": "9",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": [72,73,74],
+      "evidence_quote": "A number of sampling techniques and their advantages are described below."
+    },
+    {
+      "id": "q06", "split": "dev", "type": "dien_dat_lai",
+      "question": "Why should a questionnaire be tried out on a small group before it is sent to everyone?",
+      "expected_answer": "A pilot test with a small group from the target population lets the researcher find issues or confusing questions and adjust them before surveying the larger population.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 71,
+      "evidence_quote": "the survey questionnaire should undergo a pilot test with a small group of individuals from the target population"
+    },
+    {
+      "id": "q07", "split": "dev", "type": "dien_dat_lai",
+      "question": "How can a file be made smaller without throwing away any of its information?",
+      "expected_answer": "Use lossless compression, which finds patterns and redundancies and represents them more efficiently so the original data can be fully reconstructed (e.g., ZIP, RAR, PNG).",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 98,
+      "evidence_quote": "Lossless compression aims to reduce file size without removing any data."
+    },
+    {
+      "id": "q08", "split": "dev", "type": "dien_dat_lai",
+      "question": "How can I see the overall direction of a stock index whose daily values jump around a lot?",
+      "expected_answer": "Use data smoothing, e.g., calculate a seven-day average to smooth out daily fluctuations and reveal the overall trend.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 93,
+      "evidence_quote": "By calculating a seven-day average, we can smooth out these fluctuations"
+    },
+    {
+      "id": "q09", "split": "dev", "type": "dien_dat_lai",
+      "question": "What is it called when exact ages are grouped into ranges like 0-10, 10-20, 20-30 to reduce noise?",
+      "expected_answer": "Binning: grouping the data into age groups of 10 years instead of looking at individual ages.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 93,
+      "evidence_quote": "the researcher decides to bin the data into age groups of 10 years"
+    },
+    {
+      "id": "q10", "split": "dev", "type": "dieu_kien_ngoai_le",
+      "question": "In what situation can systematic sampling produce a biased sample?",
+      "expected_answer": "When there is a pattern in the sampling frame (the structure representing the population the sample is drawn from).",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 73,
+      "evidence_quote": "However, if there is a pattern in the sampling frame"
+    },
+    {
+      "id": "q11", "split": "dev", "type": "dieu_kien_ngoai_le",
+      "question": "What should be done with outliers before applying the normalization formula, and why?",
+      "expected_answer": "Outliers should be removed first, because they significantly affect the minimum/maximum values used by the formula; removing them gives more accurate and representative results.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 91,
+      "evidence_quote": "it is important to first remove any outliers from the dataset before performing normalization"
+    },
+    {
+      "id": "q12", "split": "dev", "type": "dieu_kien_ngoai_le",
+      "question": "Under what condition is a log transformation typically applied to data?",
+      "expected_answer": "When the data is highly skewed (most points fall toward one end of the distribution); taking logarithms shifts it toward a more symmetrical, normal-like shape.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 92,
+      "evidence_quote": "Log transformation is often used when the data is highly skewed"
+    },
+    {
+      "id": "q13", "split": "dev", "type": "metadata",
+      "question": "Which pandas function reads HTML tables from a web page?",
+      "expected_answer": "pd.read_html(), which reads HTML tables from a web page and returns them as a list of DataFrame objects.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 78,
+      "evidence_quote": "This function is used to read HTML tables from a web page and convert them into a list of DataFrame objects.",
+      "filter": {"section": "2.3"}
+    },
+    {
+      "id": "q14", "split": "dev", "type": "metadata",
+      "question": "How does splitting a dataset into chunks improve fault tolerance?",
+      "expected_answer": "If data is corrupted or lost, only the affected chunk needs to be retrieved instead of the entire dataset.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 100,
+      "evidence_quote": "In case of data corruption or loss, data chunking allows for the retrieval of only the affected chunk rather than the entire dataset.",
+      "filter": {"section": "2.5"}
+    },
+    {
+      "id": "q15", "split": "dev", "type": "metadata",
+      "question": "What are the different types of missing data a data scientist should distinguish?",
+      "expected_answer": "MCAR (missing completely at random), MAR (missing at random), and MNAR (missing not at random).",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 87,
+      "evidence_quote": "MCAR (missing completely at random) data is missing data not related to any other variables",
+      "filter": {"section": "2.4"}
+    },
+    {
+      "id": "t01", "split": "test", "type": "truc_tiep",
+      "question": "What is Sampling Error?",
+      "expected_answer": "Sampling error is the difference between the results from a sample and the true value of the population parameter it is intended to represent.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": "74",
+      "evidence_quote": "Sampling error is the difference between the results obtained from a sample and the true value of the population parameter it is intended to represent. "
+    },
+    {
+      "id": "t02", "split": "test", "type": "truc_tiep",
+      "question": "What is Measurement Error?",
+      "expected_answer": "Measurement errors are inaccuracies or discrepancies that surface during the process of collecting and analyzing data.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": "75",
+      "evidence_quote": "Measurement errors are inaccuracies or discrepancies that surface during the process of collecting, recording, or analyzing data. "
+    },
+    {
+      "id": "t03", "split": "test", "type": "dien_dat_lai",
+      "question": "What is the name for a set of database design rules that keeps data well-structured and free of redundancy and inconsistency?",
+      "expected_answer": "A normal form (NF), e.g., 1NF, 2NF, 3NF and BCNF.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 90,
+      "evidence_quote": "A normal form (NF) is a guideline or set of rules used in database design"
+    },
+    {
+      "id": "t04", "split": "test", "type": "dieu_kien_ngoai_le",
+      "question": "Can the results of a study that uses volunteer sampling be generalized to the whole population?",
+      "expected_answer": "No, not reliably: volunteer sampling is not random or representative, so its results may not be generalizable to the entire population.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 74,
+      "evidence_quote": "the results obtained from volunteer sampling may not be generalizable to the entire population"
+    },
+    {
+      "id": "t05", "split": "test", "type": "metadata",
+      "question": "Which indexing technique maps data to a position in a table through a function, allowing direct access instead of sequential search?",
+      "expected_answer": "Hash indexing, which uses a hash function to map data to a specific index in a table.",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": 99,
+      "evidence_quote": "Hashes indexing involves using a hash function to map data to a specific index in a table.",
+      "filter": {"section": "2.5"}
+    },
+    {
+      "id": "t06", "split": "test", "type": "metadata",
+      "question": "How many common text-processing mentioned in the table?",
+      "expected_answer": "10",
+      "gold_source_id": "openstax-pds-ch02", "gold_page": [95, 96, 97],
+      "evidence_quote": " Some common techniques used in text preprocessing are reviewed in Table 2.8. ",
+      "filter": {"section": "2.4"}
+    }
+  ],
+  "_huong_dan_absence": [
+    "TEMPLATE câu THIẾU EVIDENCE (answerable=false): tối thiểu 2 câu dev (a-q*) + 2 câu test (a-t*). Định dạng theo data/agent_cases_example.json.",
+    "Đặt trong khóa 'agent_cases', KHÔNG đặt trong 'questions' (baseline retrieval yêu cầu gold/evidence cho mọi câu trong 'questions').",
+    "Trường bắt buộc: id, split, question, answerable=false, expected_behavior='search_and_abstain', absence_reason.",
+    "absence_reason gợi ý theo mẫu: '<Chủ đề X> nằm ngoài phạm vi Chương 2 (thu thập & chuẩn bị dữ liệu, PDF 67-103); <cách đã kiểm tra, vd grep từ khóa 'A', 'B' trên toàn bộ chunk không có kết quả>.'",
+    "Chọn câu GẦN chủ đề corpus (cùng từ vựng data science) để retriever vẫn trả về chunk có vẻ liên quan; agent phải nhận ra chunk không trả lời được và từ chối, không bịa.",
+    "Trước khi chốt: grep từ khóa chính trên chunks.json để xác nhận thật sự không có evidence; nếu tìm thấy, chuyển câu đó sang 'questions' với gold đầy đủ.",
+    "Không đưa absence_reason vào model hay retrieval tool; chỉ dùng khi chấm abstention_correct."
+  ],
+  "agent_cases": [
+    {
+      "id": "a-q01", "split": "dev", "type": "absence",
+      "question": "What learning rate does the chapter recommend when training a neural network on the cleaned dataset?",
+      "answerable": false, "expected_behavior": "search_and_abstain",
+      "absence_reason": "Huấn luyện mạng nơ-ron và learning rate nằm ngoài phạm vi Chương 2 (chỉ thu thập & chuẩn bị dữ liệu); cần grep 'learning rate', 'neural network' trên chunk để xác nhận không có kết quả."
+    },
+    {
+      "id": "a-q02", "split": "dev", "type": "absence",
+      "question": "What is the formula for the F1 score used to evaluate a classification model after preprocessing?",
+      "answerable": false, "expected_behavior": "search_and_abstain",
+      "absence_reason": "Chỉ số đánh giá mô hình (F1, precision, recall) thuộc các chương sau; Chương 2 không định nghĩa F1. Cần grep 'F1', 'precision', 'recall' để xác nhận."
+    },
+    {
+      "id": "a-t01", "split": "test", "type": "absence",
+      "question": "What p-value threshold does the chapter use to reject the null hypothesis when comparing two samples?",
+      "answerable": false, "expected_behavior": "search_and_abstain",
+      "absence_reason": "Kiểm định giả thuyết / p-value thuộc chương thống kê suy luận, không nằm trong Chương 2 dù chương có nói về sampling. Cần grep 'p-value', 'null hypothesis' để xác nhận."
+    },
+    {
+      "id": "a-t02", "split": "test", "type": "absence",
+      "question": "Which hyperparameter values does the chapter suggest for a random forest classifier trained on normalized data?",
+      "answerable": false, "expected_behavior": "search_and_abstain",
+      "absence_reason": "Random forest và tinh chỉnh hyperparameter thuộc phần machine learning; Chương 2 chỉ nói normalization, không có mô hình. Cần grep 'random forest', 'hyperparameter' để xác nhận."
+    }
+  ]
+}

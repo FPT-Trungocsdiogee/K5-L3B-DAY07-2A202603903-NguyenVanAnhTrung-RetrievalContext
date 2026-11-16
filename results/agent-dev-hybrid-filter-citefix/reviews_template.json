@@ -1,0 +1,227 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What is Observational Data and how it is collected?",
+    "_answer": "Observational data is collected by systematically observing and recording behavior without the active participation of the researcher [openstax-pds-ch02:p68:para600:5].",
+    "_citations": [
+      "openstax-pds-ch02:p68:para600:5"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Observational Data is collected by observing and recording behavior without the participation of the researcher."
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "What is Transactional data and how it is collected?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "answer_grade": 0,
+    "_expected_answer": "Transactional data is related to any type of information related to transactions or interactions between individuals, businesses, or systems."
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What is Open-ended questions?",
+    "_answer": "Open-ended questions are those that allow respondents to answer in their own words, providing qualitative data. They are typically used in surveys alongside closed-ended questions to gather a comprehensive range of information from participants [openstax-pds-ch02:p71:para600:7].",
+    "_citations": [
+      "openstax-pds-ch02:p71:para600:7"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Open-ended questions are questions that allow in-depth, detailed and personal responses."
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "What is Close-ended questions?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "answer_grade": 0,
+    "_expected_answer": "Close-ended questions are questions that have predetermined choices."
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "How many sampling techniques mentioned in this book?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "answer_grade": 0,
+    "_expected_answer": "9"
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "Why should a questionnaire be tried out on a small group before it is sent to everyone?",
+    "_answer": "A questionnaire should be tried out on a small group before it is sent to everyone to identify any potential issues or confusion with the questions. This pilot test allows the researcher to make necessary adjustments, ensuring the quality of the data collected before administering the survey to the larger population [openstax-pds-ch02:p71:para600:6].",
+    "_citations": [
+      "openstax-pds-ch02:p71:para600:6"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "A pilot test with a small group from the target population lets the researcher find issues or confusing questions and adjust them before surveying the larger population."
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "How can a file be made smaller without throwing away any of its information?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "answer_grade": 0,
+    "_expected_answer": "Use lossless compression, which finds patterns and redundancies and represents them more efficiently so the original data can be fully reconstructed (e.g., ZIP, RAR, PNG)."
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "How can I see the overall direction of a stock index whose daily values jump around a lot?",
+    "_answer": "To see the overall direction of a stock index with volatile daily values, you can calculate a seven-day average. This method smooths out fluctuations and allows you to observe the overall trend of the index over the course of the month [openstax-pds-ch02:p93:para600:2].",
+    "_citations": [
+      "openstax-pds-ch02:p93:para600:2"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Use data smoothing, e.g., calculate a seven-day average to smooth out daily fluctuations and reveal the overall trend."
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What is it called when exact ages are grouped into ranges like 0-10, 10-20, 20-30 to reduce noise?",
+    "_answer": "This process is called \"binning\" or \"data binning,\" where exact ages are grouped into ranges to facilitate analysis and reduce noise in the data [openstax-pds-ch02:p93:para600:3].",
+    "_citations": [
+      "openstax-pds-ch02:p93:para600:3"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Binning: grouping the data into age groups of 10 years instead of looking at individual ages."
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "In what situation can systematic sampling produce a biased sample?",
+    "_answer": "Systematic sampling can produce a biased sample if there is a pattern in the sampling frame, which is the organizing structure that represents the population from which the sample is drawn. For example, if the sampling frame has a regular pattern, such as every nth student being selected, and that pattern aligns with a characteristic of the population, it may lead to a biased sample. This can occur in situations where the population is not randomly distributed, such as in the case of studying dietary habits among students where the sampling frame may reflect certain biases based on the order of students listed [openstax-pds-ch02:p73:para600:6].",
+    "_citations": [
+      "openstax-pds-ch02:p73:para600:6"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "When there is a pattern in the sampling frame (the structure representing the population the sample is drawn from)."
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "What should be done with outliers before applying the normalization formula, and why?",
+    "_answer": "Before applying the normalization formula, it is important to remove any outliers from the dataset. This is necessary because outliers can significantly affect the calculated values of minimum and maximum, leading to inaccurate and unrepresentative results in the normalization process. By removing outliers, the normalization can yield more accurate scaling of the data, typically to a range between zero and one [openstax-pds-ch02:p91:para600:2].",
+    "_citations": [
+      "openstax-pds-ch02:p91:para600:2"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "Outliers should be removed first, because they significantly affect the minimum/maximum values used by the formula; removing them gives more accurate and representative results."
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "Under what condition is a log transformation typically applied to data?",
+    "_answer": "A log transformation is typically applied to data when the data is highly skewed, meaning most of the data points fall toward one end of the distribution. This transformation helps to make the data closer to a normal distribution, which is often assumed by statistical models [openstax-pds-ch02:p92:para600:3].",
+    "_citations": [
+      "openstax-pds-ch02:p92:para600:3"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "When the data is highly skewed (most points fall toward one end of the distribution); taking logarithms shifts it toward a more symmetrical, normal-like shape."
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "Which pandas function reads HTML tables from a web page?",
+    "_answer": "The pandas function that reads HTML tables from a web page is `read_html()` [openstax-pds-ch02:p78:para600:2].",
+    "_citations": [
+      "openstax-pds-ch02:p78:para600:2"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "pd.read_html(), which reads HTML tables from a web page and returns them as a list of DataFrame objects."
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "_status": "answered",
+    "_question": "How does splitting a dataset into chunks improve fault tolerance?",
+    "_answer": "Splitting a dataset into chunks improves fault tolerance by allowing for the retrieval of only the affected chunk in case of data corruption or loss, rather than requiring the recovery of the entire dataset. This targeted approach minimizes the impact of failures and enhances the overall reliability of data processing systems [openstax-pds-ch02:p100:para600:3].",
+    "_citations": [
+      "openstax-pds-ch02:p100:para600:3"
+    ],
+    "answer_grade": null,
+    "_expected_answer": "If data is corrupted or lost, only the affected chunk needs to be retrieved instead of the entire dataset."
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "What are the different types of missing data a data scientist should distinguish?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "answer_grade": 0,
+    "_expected_answer": "MCAR (missing completely at random), MAR (missing at random), and MNAR (missing not at random)."
+  },
+  {
+    "query_id": "a-q01",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "What learning rate does the chapter recommend when training a neural network on the cleaned dataset?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "abstention_correct": null
+  },
+  {
+    "query_id": "a-q02",
+    "citation_support": [],
+    "reason": "",
+    "_status": "abstain",
+    "_question": "What is the formula for the F1 score used to evaluate a classification model after preprocessing?",
+    "_answer": "Không đủ bằng chứng để trả lời.",
+    "_citations": [],
+    "abstention_correct": null
+  }
+]

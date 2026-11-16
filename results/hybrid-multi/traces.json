@@ -1,0 +1,1937 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What is Observational Data and how it is collected?",
+    "queries": [
+      "What is Observational Data and how it is collected?",
+      "definition of observational data and collection methods",
+      "how is observational data gathered",
+      "understanding observational data and its collection techniques"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 68,
+        "evidence": "Observational data, often used in qualitative research, is collected by systematically observing and recording\nbehavior without the active participation of the researcher"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p68:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 68,
+        "text": "Observational data, often used in qualitative research, is collected by systematically observing and recording\nbehavior without the active participation of the researcher. Transactional data refers to any type of\ninformation related to transactions or interactions between individuals, businesses, or systems, and it is more\noften used in quantitative research.\nMany fields of study use observational data for their research. Table 2.1 summarizes some examples of fields\nthat rely on observational data, the type of data they collect, and the purpose of their data collection.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.1",
+          "char_end": 3189,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2613,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Overview of Data Collection Methods"
+        },
+        "score": 0.06557377049180328,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 1,
+          "q2": 1,
+          "q3": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p69:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 69,
+        "text": "Which\nmethod of data collection is best suited for Ashley's research on determining the total amount of food\nrequired for her three-day absence—observational or transactional? Provide a step-by-step explanation of\nthe chosen method.\n2.1 • Overview of Data Collection Methods 59",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.1",
+          "char_end": 2947,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2670,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Overview of Data Collection Methods"
+        },
+        "score": 0.06426011264720942,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 3,
+          "q2": 2,
+          "q3": 2
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p68:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 68,
+        "text": "If a survey or experiment is used, the design of the survey/experiment is also a critical step, requiring\ncareful consideration of the type of questions, response options, and overall structure. A survey may be\nconducted online, via phone, or in person, while experimental research requires a controlled environment to\nensure data validity and reliability.\nTypes of Data\nObservational and transactional data play important roles in data analysis and related decision-making, each\noffering unique insights into different aspects of real-world phenomena and business operations.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.1",
+          "char_end": 2612,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2036,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Overview of Data Collection Methods"
+        },
+        "score": 0.061801046176046176,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 6,
+          "q2": 4,
+          "q3": 6
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p68:para600:5 | Principles-of-Data-Science-WEB.pdf | page 68]\nObservational data, often used in qualitative research, is collected by systematically observing and recording\nbehavior without the active participation of the researcher. Transactional data refers to any type of\ninformation related to transactions or interactions between individuals, businesses, or systems, and it is more\noften used in quantitative research.\nMany fields of study use observational data for their research. Table 2.1 summarizes some examples of fields\nthat rely on observational data, the type of data they collect, and the purpose of their data collection.",
+    "context_ids": [
+      "openstax-pds-ch02:p68:para600:5"
+    ],
+    "context_chars": 657,
+    "elapsed_ms": 6051.14279999998,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What is Transactional data and how it is collected?",
+    "queries": [
+      "What is Transactional data and how it is collected?",
+      "definition of transactional data and collection methods",
+      "how is transactional data gathered and what does it mean?",
+      "understanding transactional data and its collection process"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 68,
+        "evidence": "Transactional data refers to any type of\ninformation related to transactions or interactions between individuals, businesses, or systems, and it is more\noften used in quantitative research."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p69:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 69,
+        "text": "It can include financial data, but it also includes data related to customer purchases, website clicks,\nuser interactions, or any other type of activity that is recorded and tracked.\nTransactional data can be used to understand patterns and trends, make predictions and recommendations,\nand identify potential opportunities or areas for improvement. For example, the health care industry may\nfocus on transactional data related to patient interactions with health care providers and facilities, such as\nappointments, treatments, and medications prescribed.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.1",
+          "char_end": 1596,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1040,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Overview of Data Collection Methods"
+        },
+        "score": 0.06352408975359795,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 5,
+          "q2": 1,
+          "q3": 3
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p69:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 69,
+        "text": "Which\nmethod of data collection is best suited for Ashley's research on determining the total amount of food\nrequired for her three-day absence—observational or transactional? Provide a step-by-step explanation of\nthe chosen method.\n2.1 • Overview of Data Collection Methods 59",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.1",
+          "char_end": 2947,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2670,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Overview of Data Collection Methods"
+        },
+        "score": 0.06308991554893195,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 6,
+          "q1": 1,
+          "q2": 6,
+          "q3": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p68:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 68,
+        "text": "Observational data, often used in qualitative research, is collected by systematically observing and recording\nbehavior without the active participation of the researcher. Transactional data refers to any type of\ninformation related to transactions or interactions between individuals, businesses, or systems, and it is more\noften used in quantitative research.\nMany fields of study use observational data for their research. Table 2.1 summarizes some examples of fields\nthat rely on observational data, the type of data they collect, and the purpose of their data collection.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.1",
+          "char_end": 3189,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2613,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Overview of Data Collection Methods"
+        },
+        "score": 0.06280843765045739,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 4,
+          "q2": 7,
+          "q3": 2
+        },
+        "hit": true
+      }
+    ],
+    "context": "[openstax-pds-ch02:p69:para600:2 | Principles-of-Data-Science-WEB.pdf | page 69]\nIt can include financial data, but it also includes data related to customer purchases, website clicks,\nuser interactions, or any other type of activity that is recorded and tracked.\nTransactional data can be used to understand patterns and trends, make predictions and recommendations,\nand identify potential opportunities or areas for improvement. For example, the health care industry may\nfocus on transactional data related to patient interactions with health care providers and facilities, such as\nappointments, treatments, and medications prescribed.",
+    "context_ids": [
+      "openstax-pds-ch02:p69:para600:2"
+    ],
+    "context_chars": 637,
+    "elapsed_ms": 5903.251099999579,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "What is Open-ended questions?",
+    "queries": [
+      "What is Open-ended questions?",
+      "definition of open-ended questions in data collection",
+      "what are open-ended questions and their role in surveys",
+      "explanation of open-ended questions in qualitative research"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 72,
+        "evidence": "Open-ended questions allow for more in-depth responses and provide the opportunity for unexpected\ninsights. They also allow respondents to elaborate on their thoughts and provide detailed and personal\nresponses."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p71:para600:7",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 71,
+        "text": "Open-Ended Versus Closed-Ended Questions\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative\nand qualitative data.\n2.2 • Survey Design and Implementation 61",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3830,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3618,
+          "chunk_index": 7,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06557377049180328,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 1,
+          "q2": 1,
+          "q3": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p72:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 72,
+        "text": "Open-ended questions allow for more in-depth responses and provide the opportunity for unexpected\ninsights. They also allow respondents to elaborate on their thoughts and provide detailed and personal\nresponses. Closed-ended questions have predetermined answer choices and are effective in gathering\nquantitative data. They are quick and easy to answer, and their clear and structured format allows for\nquantifiable results.\nAvoiding Bias in Survey Questions\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 566,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06451612903225806,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 2,
+          "q2": 2,
+          "q3": 2
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p72:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 72,
+        "text": "This\ndiscrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended\nquestions, which may not have accurately captured the opinions of all voters.\nAn example of a biased survey question in a survey conducted by a shampoo company might be \"Do you\nprefer our brand of shampoo over cheaper alternatives?\" This question is biased because it assumes that the\nrespondent prefers the company's brand over others.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 1546,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1100,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06324404761904762,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 3,
+          "q2": 4,
+          "q3": 3
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p71:para600:7 | Principles-of-Data-Science-WEB.pdf | page 71]\nOpen-Ended Versus Closed-Ended Questions\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative\nand qualitative data.\n2.2 • Survey Design and Implementation 61",
+    "context_ids": [
+      "openstax-pds-ch02:p71:para600:7"
+    ],
+    "context_chars": 293,
+    "elapsed_ms": 6478.277799999887,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What is Close-ended questions?",
+    "queries": [
+      "What is Close-ended questions?",
+      "definition of close-ended questions",
+      "examples of closed questions in surveys",
+      "characteristics of close-ended survey items"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 72,
+        "evidence": "Closed-ended questions have predetermined answer choices and are effective in gathering\nquantitative data. They are quick and easy to answer, and their clear and structured format allows for\nquantifiable results."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p71:para600:7",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 71,
+        "text": "Open-Ended Versus Closed-Ended Questions\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative\nand qualitative data.\n2.2 • Survey Design and Implementation 61",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3830,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3618,
+          "chunk_index": 7,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06557377049180328,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 1,
+          "q2": 1,
+          "q3": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p72:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 72,
+        "text": "Open-ended questions allow for more in-depth responses and provide the opportunity for unexpected\ninsights. They also allow respondents to elaborate on their thoughts and provide detailed and personal\nresponses. Closed-ended questions have predetermined answer choices and are effective in gathering\nquantitative data. They are quick and easy to answer, and their clear and structured format allows for\nquantifiable results.\nAvoiding Bias in Survey Questions\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 566,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06451612903225806,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 2,
+          "q2": 2,
+          "q3": 2
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p72:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 72,
+        "text": "This\ndiscrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended\nquestions, which may not have accurately captured the opinions of all voters.\nAn example of a biased survey question in a survey conducted by a shampoo company might be \"Do you\nprefer our brand of shampoo over cheaper alternatives?\" This question is biased because it assumes that the\nrespondent prefers the company's brand over others.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 1546,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1100,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06349206349206349,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 3,
+          "q2": 3,
+          "q3": 3
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p71:para600:7 | Principles-of-Data-Science-WEB.pdf | page 71]\nOpen-Ended Versus Closed-Ended Questions\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative\nand qualitative data.\n2.2 • Survey Design and Implementation 61",
+    "context_ids": [
+      "openstax-pds-ch02:p71:para600:7"
+    ],
+    "context_chars": 293,
+    "elapsed_ms": 6093.632400000388,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "How many sampling techniques mentioned in this book?",
+    "queries": [
+      "How many sampling techniques mentioned in this book?",
+      "sampling methods discussed in this chapter",
+      "number of sampling techniques outlined in the textbook",
+      "sampling strategies covered in this section"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 72,
+        "evidence": "A number of sampling techniques and their advantages are described below."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p98:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 98,
+        "text": "Survey Design and Implementation discussed sampling techniques that allow those working\nwith data to analyze and examine large datasets by select a representative subset, or representative random\nsample. Preprocessing techniques covered in Data Cleaning and Preprocessing are also used to clean,\nnormalize, and transform data to make sure it is consistent before it can be analyzed. This includes handling\nmissing values, removing outliers, and standardizing data formats.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 2073,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1601,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.06478893337698204,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 1,
+          "q2": 3,
+          "q3": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p72:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 72,
+        "text": "When using a survey, researchers must also\nconsider the tool(s) that will be used for distributing the survey, such as through email, social media, or\nphysically distributing questionnaires at the restaurant. It's crucial to make the survey easily accessible to the\nchosen sample to achieve a higher response rate.\nA number of sampling techniques and their advantages are described below. The most frequently used among\nthese are simple random selection, stratified sampling, cluster sampling, and convenience sampling.\n1. Simple random selection.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3115,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2568,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06279495777446598,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 4,
+          "q1": 4,
+          "q2": 1,
+          "q3": 6
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p72:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 72,
+        "text": "Sampling is necessary in a wide range of data science projects to make data collection more manageable and\ncost-effective while still drawing meaningful conclusions. A variety of techniques can be employed to\ndetermine a subset of data from a larger population to perform research or construct hypotheses about the\nentire population. The choice of a sampling technique depends upon the nature and features of the\npopulation being studied as well as the objectives of the research.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 2567,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2087,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.060697078055618504,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 12,
+          "q2": 2,
+          "q3": 10
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p98:para600:3 | Principles-of-Data-Science-WEB.pdf | page 98]\nSurvey Design and Implementation discussed sampling techniques that allow those working\nwith data to analyze and examine large datasets by select a representative subset, or representative random\nsample. Preprocessing techniques covered in Data Cleaning and Preprocessing are also used to clean,\nnormalize, and transform data to make sure it is consistent before it can be analyzed. This includes handling\nmissing values, removing outliers, and standardizing data formats.",
+    "context_ids": [
+      "openstax-pds-ch02:p98:para600:3"
+    ],
+    "context_chars": 553,
+    "elapsed_ms": 5762.158099999397,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Why should a questionnaire be tried out on a small group before it is sent to everyone?",
+    "queries": [
+      "Why should a questionnaire be tried out on a small group before it is sent to everyone?",
+      "importance of pre-testing questionnaires",
+      "benefits of pilot testing surveys",
+      "why conduct a trial run of a questionnaire before full deployment"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 71,
+        "evidence": "the survey questionnaire should undergo a pilot test with a small group of individuals from the\ntarget population"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p71:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 71,
+        "text": "Additionally, the researcher may consider mixing up the\nresponse options for multiple-choice questions to avoid response bias. To ensure the quality of the data\ncollected, the survey questionnaire should undergo a pilot test with a small group of individuals from the\ntarget population. This allows the researcher to identify any potential issues or confusion with the questions\nand make necessary adjustments before administering the survey to the larger population.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3617,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3150,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06505334374186834,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 3,
+          "q2": 1,
+          "q3": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p72:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 72,
+        "text": "When using a survey, researchers must also\nconsider the tool(s) that will be used for distributing the survey, such as through email, social media, or\nphysically distributing questionnaires at the restaurant. It's crucial to make the survey easily accessible to the\nchosen sample to achieve a higher response rate.\nA number of sampling techniques and their advantages are described below. The most frequently used among\nthese are simple random selection, stratified sampling, cluster sampling, and convenience sampling.\n1. Simple random selection.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3115,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2568,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.05925394334072208,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 12,
+          "q1": 2,
+          "q2": 6,
+          "q3": 11
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p76:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 76,
+        "text": "Researchers need to be aware of these potential errors and take steps to minimize them when designing\nand conducting their studies.\nEXAMPLE 2.3\nProblem\nMark is a data scientist who works for a marketing research company. He has been tasked to lead a study to\nunderstand consumer behavior toward a new product that is about to be launched in the market. As data\nscientists, they know the importance of using the right sampling technique to collect accurate and reliable\ndata. Mark divided the population into different groups based on factors such as age, education, and\nincome.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.3",
+          "char_end": 577,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Web Scraping and Social Media Data Collection"
+        },
+        "score": 0.0592216670301226,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 5,
+          "q1": 1,
+          "q2": 16,
+          "q3": 10
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p71:para600:6 | Principles-of-Data-Science-WEB.pdf | page 71]\nAdditionally, the researcher may consider mixing up the\nresponse options for multiple-choice questions to avoid response bias. To ensure the quality of the data\ncollected, the survey questionnaire should undergo a pilot test with a small group of individuals from the\ntarget population. This allows the researcher to identify any potential issues or confusion with the questions\nand make necessary adjustments before administering the survey to the larger population.",
+    "context_ids": [
+      "openstax-pds-ch02:p71:para600:6"
+    ],
+    "context_chars": 548,
+    "elapsed_ms": 6012.15079999929,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "How can a file be made smaller without throwing away any of its information?",
+    "queries": [
+      "How can a file be made smaller without throwing away any of its information?",
+      "methods for data compression without loss of information",
+      "techniques to reduce file size while preserving data integrity",
+      "ways to minimize file size without losing data quality"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 98,
+        "evidence": "Lossless compression aims to reduce file size without removing any data."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p98:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 98,
+        "text": "Data compression is classified into two categories, lossy and lossless:\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered\nirrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of\nsome data. Lossy compression is often utilized for multimedia files and images, where slight modifications\nin quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.\n• Lossless compression aims to reduce file size without removing any data.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 3178,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2607,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.06530936012691699,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 2,
+          "q2": 1,
+          "q3": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p98:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 98,
+        "text": "This method achieves\ncompression by finding patterns and redundancies in the data and representing them more efficiently.\nThis allows for the reconstruction of the original data without any loss in quality. Lossless compression is\ncommonly used for text and numerical data, where every piece of information is crucial. Examples of\nlossless compression include ZIP, RAR, and PNG.\nThere are several methods of data lossless compression, including Huffman coding.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 3639,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3179,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.06403612252369524,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 1,
+          "q2": 5,
+          "q3": 2
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p98:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 98,
+        "text": "In this section we will consider several other aspects of data management that are especially useful with big\ndata, including data compression, data storage, data indexing, and chunking. In addition, we’ll discuss\ndatabase management systems—software that allows for the organization, manipulation, and retrieval of data\nthat is stored in a structured format—and cloud computing.\nData Compression\nData compression is a method of reducing file size while retaining essential information; it can be applied to\nmany types of databases.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 2606,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2074,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.06300403225806452,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 4,
+          "q1": 4,
+          "q2": 2,
+          "q3": 4
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p98:para600:5 | Principles-of-Data-Science-WEB.pdf | page 98]\nData compression is classified into two categories, lossy and lossless:\n• Lossy compression reduces the size of data by permanently extracting particular data that is considered\nirrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of\nsome data. Lossy compression is often utilized for multimedia files and images, where slight modifications\nin quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.\n• Lossless compression aims to reduce file size without removing any data.",
+    "context_ids": [
+      "openstax-pds-ch02:p98:para600:5"
+    ],
+    "context_chars": 652,
+    "elapsed_ms": 6720.308099999784,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "How can I see the overall direction of a stock index whose daily values jump around a lot?",
+    "queries": [
+      "How can I see the overall direction of a stock index whose daily values jump around a lot?",
+      "methods to analyze stock index trends despite daily fluctuations",
+      "techniques for assessing overall stock index direction with volatile data",
+      "ways to interpret stock index movements when daily values are erratic"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 93,
+        "evidence": "By calculating a seven-day average, we can smooth out these\nfluctuations"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p93:para600:1",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 93,
+        "text": "Strategies to reduce the noisy data are summarized in Table 2.7.\nStrategy Example\nData cleaning Removing duplicate or irrelevant data from a dataset, such as deleting repeated\nrows in a spreadsheet or filtering out incomplete or error-prone data entries.\nData smoothing A technique used in data analysis to remove outliers or noise from a dataset in\norder to reveal underlying patterns or trends. One example is smoothing a\ndataset of daily stock market index values over the course of a month. The\nvalues may fluctuate greatly on a day-to-day basis, making it difficult to see any\noverall trend.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1143,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 547,
+          "chunk_index": 1,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06478893337698204,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 1,
+          "q2": 2,
+          "q3": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p93:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 93,
+        "text": "This would\nresult in a transformed data as follows: 01/01/2020, 02/02/2020, 03/01/2020 are\n3, 4, 5, respectively.\nDimensionality\nreduction\nThe original dataset would have high dimensionality due to the large number\nof variables (100 companies) and time points (5 years). By applying principal\ncomponent analysis, we can reduce the dimensionality of the dataset to a few\nprincipal components that represent the overall trends and patterns in the\nstock market.\nEnsemble methods An example of an ensemble method is the random forest algorithm.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2699,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2159,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06452452301209573,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 3,
+          "q2": 1,
+          "q3": 2
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p93:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 93,
+        "text": "By calculating a seven-day average, we can smooth out these\nfluctuations and see the overall trend of the index over the course of the\nmonth.\nImputation An example of imputation is in a hospital setting where a patient's medical\nhistory is incomplete due to missing information. The hospital staff can use\nimputation to estimate the missing data based on the patient's known medical\nconditions and past treatments.\nBinning A researcher is studying the age demographics of a population in a city.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1639,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1144,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06402049075403121,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 2,
+          "q2": 3,
+          "q3": 4
+        },
+        "hit": true
+      }
+    ],
+    "context": "[openstax-pds-ch02:p93:para600:1 | Principles-of-Data-Science-WEB.pdf | page 93]\nStrategies to reduce the noisy data are summarized in Table 2.7.\nStrategy Example\nData cleaning Removing duplicate or irrelevant data from a dataset, such as deleting repeated\nrows in a spreadsheet or filtering out incomplete or error-prone data entries.\nData smoothing A technique used in data analysis to remove outliers or noise from a dataset in\norder to reveal underlying patterns or trends. One example is smoothing a\ndataset of daily stock market index values over the course of a month. The\nvalues may fluctuate greatly on a day-to-day basis, making it difficult to see any\noverall trend.",
+    "context_ids": [
+      "openstax-pds-ch02:p93:para600:1"
+    ],
+    "context_chars": 677,
+    "elapsed_ms": 6784.22640000008,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What is it called when exact ages are grouped into ranges like 0-10, 10-20, 20-30 to reduce noise?",
+    "queries": [
+      "What is it called when exact ages are grouped into ranges like 0-10, 10-20, 20-30 to reduce noise?",
+      "grouping ages into ranges for data analysis",
+      "age binning techniques in data preparation",
+      "categorizing ages into intervals to minimize variability"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 93,
+        "evidence": "the researcher decides to bin the data into age\ngroups of 10 years"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p93:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 93,
+        "text": "Instead\nof looking at individual ages, the researcher decides to bin the data into age\ngroups of 10 years (e.g., 0–10, 10–20, 20–30, etc.). This allows for a more\ncomprehensive and easier analysis of the data.\nData transformation Consider the following dataset that shows the number of COVID-19 cases\nrecorded in a country at different points in time—01/01/2020, 02/02/2020, 03/\n01/2020—are 1000, 10000, 100000, respectively. To transform this data using\nlog, we can take the log base 10 of the number of cases column.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2158,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1640,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06480532786885246,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 1,
+          "q2": 4,
+          "q3": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p86:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 86,
+        "text": "Data discretization involves grouping continuous data into categories or ranges,\nwhich can help facilitate analysis.\n6. Data sampling. In some cases, the data may be too large to analyze in its entirety. In such cases, a sample\nof the data can be taken for analysis while still maintaining the overall characteristics of the original\ndataset.\nThe goal of data cleaning and preprocessing is to guarantee that the data used for analysis is accurate,\nconsistent, and relevant. It helps to improve the quality of the results and increase the efficiency of the analysis\nprocess.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2220,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1647,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.060573476702508955,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 2,
+          "q2": 10,
+          "q3": 10
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p93:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 93,
+        "text": "By calculating a seven-day average, we can smooth out these\nfluctuations and see the overall trend of the index over the course of the\nmonth.\nImputation An example of imputation is in a hospital setting where a patient's medical\nhistory is incomplete due to missing information. The hospital staff can use\nimputation to estimate the missing data based on the patient's known medical\nconditions and past treatments.\nBinning A researcher is studying the age demographics of a population in a city.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1639,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1144,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.060472532149909636,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 7,
+          "q1": 9,
+          "q2": 2,
+          "q3": 7
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p93:para600:3 | Principles-of-Data-Science-WEB.pdf | page 93]\nInstead\nof looking at individual ages, the researcher decides to bin the data into age\ngroups of 10 years (e.g., 0–10, 10–20, 20–30, etc.). This allows for a more\ncomprehensive and easier analysis of the data.\nData transformation Consider the following dataset that shows the number of COVID-19 cases\nrecorded in a country at different points in time—01/01/2020, 02/02/2020, 03/\n01/2020—are 1000, 10000, 100000, respectively. To transform this data using\nlog, we can take the log base 10 of the number of cases column.",
+    "context_ids": [
+      "openstax-pds-ch02:p93:para600:3"
+    ],
+    "context_chars": 599,
+    "elapsed_ms": 6382.601700000123,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "In what situation can systematic sampling produce a biased sample?",
+    "queries": [
+      "In what situation can systematic sampling produce a biased sample?",
+      "situations where systematic sampling leads to bias",
+      "conditions causing bias in systematic sampling",
+      "examples of biased samples from systematic sampling methods"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 73,
+        "evidence": "However, if there is a pattern in the sampling frame"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p73:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 73,
+        "text": "A researcher stands in front of the store and approaches people who are coming out of the\nstore to ask them about their shopping experience. The researcher only includes responses from those\nwho agreed to participate, resulting in a sample that is convenient but may not be representative of the\nentire population of shoppers in the mall.\n5. Systematic sampling. Systematic sampling is based on starting at a random location in the dataset and\nthen selecting every nth member from a population to be contained in the sample.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3134,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2610,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06401209677419355,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 2,
+          "q2": 4,
+          "q3": 2
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p74:para600:8",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 74,
+        "text": "To\navoid sampling error, researchers can increase sample size, use probability sampling methods, control for\nextraneous variables, use multiple modes of data collection, and pay careful attention to question formulation.\nSampling Bias\nSampling bias occurs when the sample used in a study isn’t representative of the population it intends to\ngeneralize to, leading to skewed or inaccurate conclusions.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 4034,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3634,
+          "chunk_index": 8,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06350006400409626,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 3,
+          "q2": 2,
+          "q3": 4
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p73:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 73,
+        "text": "This process is\nstraightforward to implement, and it provides a representative sample when the population is randomly\ndistributed. However, if there is a pattern in the sampling frame (the organizing structure that represents\nthe population from which a sample is drawn), it may lead to a biased sample.\nSuppose a researcher wants to study the dietary habits of students in a high school. The researcher has a\nlist of all the students enrolled in the school, which is approximately 1,000 students. Instead of randomly\nselecting a sample of students, the researcher decides to use systematic sampling.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.2",
+          "char_end": 3735,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3135,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Survey Design and Implementation"
+        },
+        "score": 0.06332301578203219,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 5,
+          "q2": 6,
+          "q3": 1
+        },
+        "hit": true
+      }
+    ],
+    "context": "[openstax-pds-ch02:p73:para600:5 | Principles-of-Data-Science-WEB.pdf | page 73]\nA researcher stands in front of the store and approaches people who are coming out of the\nstore to ask them about their shopping experience. The researcher only includes responses from those\nwho agreed to participate, resulting in a sample that is convenient but may not be representative of the\nentire population of shoppers in the mall.\n5. Systematic sampling. Systematic sampling is based on starting at a random location in the dataset and\nthen selecting every nth member from a population to be contained in the sample.",
+    "context_ids": [
+      "openstax-pds-ch02:p73:para600:5"
+    ],
+    "context_chars": 605,
+    "elapsed_ms": 6434.198899999501,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "What should be done with outliers before applying the normalization formula, and why?",
+    "queries": [
+      "What should be done with outliers before applying the normalization formula, and why?",
+      "how to handle outliers before normalization",
+      "steps for managing outliers in data preparation",
+      "importance of addressing outliers prior to applying normalization techniques"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 91,
+        "evidence": "it\nis important to first remove any outliers from the dataset before performing normalization"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p87:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 87,
+        "text": "measures typically used to handle missing data and outliers in a data science project:\n1. Identify the missing data and outliers. The first stage is to identify which data points are missing or\nappear to be outliers. This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods, such as calculating the mean,\nmedian, and standard deviation (see Measures of Center and Measures of Variation as well as Encoding\nUnivariate Data).\nIt is important to distinguish between different types of missing data.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 595,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06426850662704708,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 2,
+          "q2": 1,
+          "q3": 3
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p87:para600:5",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 87,
+        "text": "Other methods include imputation, where the absent values are replaced with estimated values based on\nthe remaining data or using predictive models to fill in the missing values.\n4. Consider the influence of outliers. Outliers can greatly affect the results of the analysis, so it is important\nto carefully consider their impact. One approach is to delete the outliers from the dataset, but this can also\nlead to a loss of valuable information. Another option is to deal with the outliers as an individual group\nand analyze them separately from the rest of the data.\n5.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 3326,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2757,
+          "chunk_index": 5,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06229016279419505,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 5,
+          "q1": 6,
+          "q2": 2,
+          "q3": 4
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p87:para600:6",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 87,
+        "text": "Use robust statistical methods. When dealing with outliers, it is important to use statistical methods that\nare not affected by extreme values. This includes using median instead of mean and using nonparametric\ntests instead of parametric tests, as explained in Statistical Inference and Confidence Intervals.\n6. Validate the results. After handling the missing data and outliers, it is important to validate the results to\nensure that they are robust and accurate. This can be done through various methods, such as cross-\nvalidation or comparing the results to external data sources.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 3911,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 3327,
+          "chunk_index": 6,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06136439391133662,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 7,
+          "q2": 7,
+          "q3": 5
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p87:para600:0 | Principles-of-Data-Science-WEB.pdf | page 87]\nmeasures typically used to handle missing data and outliers in a data science project:\n1. Identify the missing data and outliers. The first stage is to identify which data points are missing or\nappear to be outliers. This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods, such as calculating the mean,\nmedian, and standard deviation (see Measures of Center and Measures of Variation as well as Encoding\nUnivariate Data).\nIt is important to distinguish between different types of missing data.",
+    "context_ids": [
+      "openstax-pds-ch02:p87:para600:0"
+    ],
+    "context_chars": 676,
+    "elapsed_ms": 7695.731800000431,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Under what condition is a log transformation typically applied to data?",
+    "queries": [
+      "Under what condition is a log transformation typically applied to data?",
+      "conditions for applying log transformation in data analysis",
+      "when to use log transformation on datasets",
+      "log transformation application criteria in data preparation"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 92,
+        "evidence": "Log transformation is often used when the data is highly skewed"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p92:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 92,
+        "text": "For example, some statistical models assume that the data is\nnormally distributed. If the data is not distributed normally, this can lead to incorrect results and\ninterpretations. In such cases, transforming the data can help to make it closer to a normal distribution and\nimprove the accuracy of the analysis.\nOne commonly used data transformation technique is the log transformation, which requires taking the\nlogarithm of the data values. Log transformation is often used when the data is highly skewed, meaning most\nof the data points fall toward one end of the distribution.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1869,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1290,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06530936012691697,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 1,
+          "q2": 1,
+          "q3": 2
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p92:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 92,
+        "text": "the normalization scale. The company can use this information\nto focus on promoting and restocking these items at each branch to continue driving sales and profits.\nData Transformation\nData transformation is a statistical technique used to modify the original structure of the data in order to make\nit more suitable for analysis. Data transformation can involve various mathematical operations such as\nlogarithmic, square root, or exponential transformations. One of the main reasons for transforming data is to\naddress issues related to statistical assumptions.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 1289,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 727,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06324404761904762,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 3,
+          "q1": 3,
+          "q2": 4,
+          "q3": 3
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p92:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 92,
+        "text": "This can cause problems in data analysis as the data\nmay not follow a normal distribution. By taking the logarithm of the values, the distribution can be shifted\ntoward a more symmetrical shape, making it easier to analyze. Another common transformation technique is\nthe square root transformation, which involves taking the square root of the data values. Similar to log\ntransformation, square root transformation is often used to address issues with skewness and make the data\nmore normally distributed.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2375,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1870,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.062275985663082435,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 2,
+          "q2": 2,
+          "q3": 12
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p92:para600:3 | Principles-of-Data-Science-WEB.pdf | page 92]\nFor example, some statistical models assume that the data is\nnormally distributed. If the data is not distributed normally, this can lead to incorrect results and\ninterpretations. In such cases, transforming the data can help to make it closer to a normal distribution and\nimprove the accuracy of the analysis.\nOne commonly used data transformation technique is the log transformation, which requires taking the\nlogarithm of the data values. Log transformation is often used when the data is highly skewed, meaning most\nof the data points fall toward one end of the distribution.",
+    "context_ids": [
+      "openstax-pds-ch02:p92:para600:3"
+    ],
+    "context_chars": 660,
+    "elapsed_ms": 6385.045899999568,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Which pandas function reads HTML tables from a web page?",
+    "queries": [
+      "Which pandas function reads HTML tables from a web page?",
+      "pandas function to extract HTML tables",
+      "how to read HTML tables using pandas",
+      "pandas read_html method for web data"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 78,
+        "evidence": "This function is used to read HTML tables from a web page and convert\nthem into a list of DataFrame objects."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p78:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 78,
+        "text": "The first step is to import the pandas library (https://openstax.org/r/pandas),\nwhich is a popular Python library for data analysis and manipulation.\nimport pandas as pd\n2. Use the read_htmlread_html() function. This function is used to read HTML tables from a web page and convert\nthem into a list of DataFrame objects. Recall from What Are Data and Data Science? that a DataFrame is a\ndata type that pandas uses to store multi-column tabular data.\ndf = pd.read_html(\"https://......\n3. Access the desired data.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.3",
+          "char_end": 1649,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1138,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Web Scraping and Social Media Data Collection"
+        },
+        "score": 0.06557377049180328,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 1,
+          "q2": 1,
+          "q3": 1
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p79:para600:1",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 79,
+        "text": "The table is organized into two main sections: employed persons and unemployed persons.\nSolution\n# Import pandas\nimport pandas as pd\n# Read data from the URL\ndf_list = pd.read_html(\n\"https://fred.stlouisfed.org/release/tables?rid=50&eid=3149#snid=4498\")\n# Since pd.read_html() returns a list of DataFrames, select the first DataFrame\ndf = df_list[0]\n# Print the first 5 rows of the DataFrame\nprint(df.head(5))\nThe resulting output will look like this:\nPYTHON CODE\n2.3 • Web Scraping and Social Media Data Collection 69",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.3",
+          "char_end": 1072,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 554,
+          "chunk_index": 1,
+          "document_type": "textbook",
+          "section_title": "Web Scraping and Social Media Data Collection"
+        },
+        "score": 0.06350006400409626,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 4,
+          "q1": 3,
+          "q2": 2,
+          "q3": 3
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p78:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 78,
+        "text": "If the data on the web page is divided into different tables, we need to specify\nwhich table we want to extract. We have used indexing to access the desired table (for example: index 4)\nfrom the list of DataFrame objects returned by the read_html() function. The index here represents the\ntable order in the web page.\n4. Store the data in a DataFrame. The result of the read_html() function is a list of DataFrame objects,\nand each DataFrame represents a table from the web page. We can store the desired data in a DataFrame\nvariable for further analysis and manipulation.\n5. Display the DataFrame.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.3",
+          "char_end": 2248,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1650,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Web Scraping and Social Media Data Collection"
+        },
+        "score": 0.0633124699085219,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 2,
+          "q2": 7,
+          "q3": 2
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p78:para600:2 | Principles-of-Data-Science-WEB.pdf | page 78]\nThe first step is to import the pandas library (https://openstax.org/r/pandas),\nwhich is a popular Python library for data analysis and manipulation.\nimport pandas as pd\n2. Use the read_htmlread_html() function. This function is used to read HTML tables from a web page and convert\nthem into a list of DataFrame objects. Recall from What Are Data and Data Science? that a DataFrame is a\ndata type that pandas uses to store multi-column tabular data.\ndf = pd.read_html(\"https://......\n3. Access the desired data.",
+    "context_ids": [
+      "openstax-pds-ch02:p78:para600:2"
+    ],
+    "context_chars": 592,
+    "elapsed_ms": 7629.7395999999935,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "How does splitting a dataset into chunks improve fault tolerance?",
+    "queries": [
+      "How does splitting a dataset into chunks improve fault tolerance?",
+      "benefits of dataset chunking for fault tolerance",
+      "how does dividing data into segments enhance reliability",
+      "impact of data partitioning on system resilience"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 100,
+        "evidence": "In case of data corruption or loss, data chunking allows for the retrieval of\nonly the affected chunk rather than the entire dataset."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p100:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 100,
+        "text": "Figure 2.5 B-Tree Indexing\nData Chunking\nData chunking, also known as data segmentation or data partitioning, is a technique used to break down\nlarge datasets into smaller, more manageable chunks and make them easier to manage, process, analyze, and\nstore. Chunking is particularly useful when datasets are too large to be processed or analyzed as a single unit.\nBy dividing the data into smaller chunks, various processing tasks can be distributed across multiple\ncomputing nodes or processing units.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 501,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.0635164584959667,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 4,
+          "q1": 4,
+          "q2": 3,
+          "q3": 1
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p100:para600:3",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 100,
+        "text": "Data chunking enables data to be distributed and processed across\nmultiple machines, making better use of available computing resources.\n3. Increased fault tolerance. In case of data corruption or loss, data chunking allows for the retrieval of\nonly the affected chunk rather than the entire dataset.\n4. Flexibility. Data chunking allows for the transfer and processing of only the required chunks rather than\nthe entire dataset, providing flexibility in managing large datasets.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 2105,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1626,
+          "chunk_index": 3,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.062418140733171174,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 1,
+          "q2": 8,
+          "q3": 7
+        },
+        "hit": true
+      },
+      {
+        "id": "openstax-pds-ch02:p100:para600:2",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 100,
+        "text": "The process of data chunking also involves adding metadata (data that provides information about\nother data), such as the chunk number and the total number of chunks, to each chunk. This metadata allows\nthe chunks to be reassembled into the original dataset after being transmitted or stored separately. Data\nchunking has several advantages, including the following:\n1. Increased speed. By dividing a large dataset into smaller chunks, data processing and transmission can\nbe performed more quickly, reducing the overall processing time.\n2. Better utilization of resources.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.5",
+          "char_end": 1625,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 1052,
+          "chunk_index": 2,
+          "document_type": "textbook",
+          "section_title": "Handling Large Datasets"
+        },
+        "score": 0.0606310803891449,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 3,
+          "q2": 2,
+          "q3": 20
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p100:para600:0 | Principles-of-Data-Science-WEB.pdf | page 100]\nFigure 2.5 B-Tree Indexing\nData Chunking\nData chunking, also known as data segmentation or data partitioning, is a technique used to break down\nlarge datasets into smaller, more manageable chunks and make them easier to manage, process, analyze, and\nstore. Chunking is particularly useful when datasets are too large to be processed or analyzed as a single unit.\nBy dividing the data into smaller chunks, various processing tasks can be distributed across multiple\ncomputing nodes or processing units.",
+    "context_ids": [
+      "openstax-pds-ch02:p100:para600:0"
+    ],
+    "context_chars": 584,
+    "elapsed_ms": 6185.241199999837,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "What are the different types of missing data a data scientist should distinguish?",
+    "queries": [
+      "What are the different types of missing data a data scientist should distinguish?",
+      "types of missing data in data science",
+      "categories of missing values in data collection",
+      "missing data classification for data preparation"
+    ],
+    "strategy": "hybrid+multi",
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-pds-ch02",
+        "page": 87,
+        "evidence": "MCAR (missing completely at\nrandom) data is missing data not related to any other variables"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-pds-ch02:p87:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 87,
+        "text": "It is helpful to understand the reasons\nbehind the missing data and outliers. Some expected reasons for missing data include measurement\nerrors, human error, or data not being collected for a particular variable. Similarly, outliers can be caused\nby incorrect data entry, measurement errors, or genuine extreme values in the data.\n3. Determine how to solve missing data issues. Several approaches can be utilized to handle missing data.\nOne option is to withdraw the missing data altogether, but this can lead to a loss of important information.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2756,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2211,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06478053939714437,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 2,
+          "q1": 2,
+          "q2": 1,
+          "q3": 2
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p86:para600:4",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 86,
+        "text": "A well-prepared dataset can lead to more accurate insights and better decision-making.\nHandling Missing Data and Outliers\nMissing data refers to any data points or values that are not present in a dataset. This could be due to data\ncollection errors, data corruption, or nonresponse from participants in a study. Missing data can impact the\naccuracy and validity of an analysis, as it reduces the sample size and potentially introduces bias.\nSome specific examples of missing data include the following:\n1. A survey participant forgetting to answer a question\n2.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 2783,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 2221,
+          "chunk_index": 4,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06301166351569577,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 5,
+          "q1": 4,
+          "q2": 2,
+          "q3": 3
+        },
+        "hit": false
+      },
+      {
+        "id": "openstax-pds-ch02:p87:para600:0",
+        "source_id": "openstax-pds-ch02",
+        "source": "Principles-of-Data-Science-WEB.pdf",
+        "page": 87,
+        "text": "measures typically used to handle missing data and outliers in a data science project:\n1. Identify the missing data and outliers. The first stage is to identify which data points are missing or\nappear to be outliers. This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods, such as calculating the mean,\nmedian, and standard deviation (see Measures of Center and Measures of Variation as well as Encoding\nUnivariate Data).\nIt is important to distinguish between different types of missing data.",
+        "metadata": {
+          "book": "Principles of Data Science",
+          "unit": 1,
+          "year": 2025,
+          "title": "Principles of Data Science - Unit 1: Introducing Data Science and Data Collection - Chapter 2: Collecting and Preparing Data",
+          "chapter": 2,
+          "section": "2.4",
+          "char_end": 595,
+          "chunking": "para600",
+          "language": "en",
+          "publisher": "OpenStax",
+          "char_start": 0,
+          "chunk_index": 0,
+          "document_type": "textbook",
+          "section_title": "Data Cleaning and Preprocessing"
+        },
+        "score": 0.06290463886909005,
+        "strategy": "hybrid",
+        "ranks": {
+          "q0": 1,
+          "q1": 1,
+          "q2": 9,
+          "q3": 4
+        },
+        "hit": false
+      }
+    ],
+    "context": "[openstax-pds-ch02:p87:para600:4 | Principles-of-Data-Science-WEB.pdf | page 87]\nIt is helpful to understand the reasons\nbehind the missing data and outliers. Some expected reasons for missing data include measurement\nerrors, human error, or data not being collected for a particular variable. Similarly, outliers can be caused\nby incorrect data entry, measurement errors, or genuine extreme values in the data.\n3. Determine how to solve missing data issues. Several approaches can be utilized to handle missing data.\nOne option is to withdraw the missing data altogether, but this can lead to a loss of important information.",
+    "context_ids": [
+      "openstax-pds-ch02:p87:para600:4"
+    ],
+    "context_chars": 626,
+    "elapsed_ms": 5796.232300000156,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]
