@@ -4,13 +4,11 @@
 
 - Nguồn, quyền sử dụng, số trang:
  Phần 2 - Unit 1 Collecting and Preparing Data của giáo trình OpenStax Principles of Data Science (2025, bản PDF "WEB", ISBN 978-1-961584-60-0), tải từ https://openstax.org/details/books/principles-data-science ngày 2026-11-13. Giấy phép CC BY-NC-SA 4.0: chỉ dùng phi thương mại, giữ ghi công. PDF có 569 trang vật lý. Chỉ tính phần được nói đến(Introduction và các mục 2.1–2.5), tức PDF trang 67–103 (37 trang nội dung). Chi tiết nằm ở [data/manifest.json](../../data/manifest.json).
-- Số chunk: 235 chunk, dùng lại index B của Day 6 (`by_paragraph(max_size=600)`: gom đoạn/câu liền nhau thành chunk ≤ 600 ký tự, không overlap; độ dài min 32, median 511, trung bình 479,6, max 600 ký tự; tổng 112.704 ký tự). Index A (`fixed_size(400, overlap=100)`, 381 chunk) vẫn nằm trong cùng bảng nhưng không dùng. Nguồn số liệu: `results/summary.json` của Day 6.
+- Số chunk: 235 chunk, dùng lại index B của Day 6 (`by_paragraph(max_size=600)`: gom đoạn/câu liền nhau thành chunk ≤ 600 ký tự, không overlap). Index A (`fixed_size(400, overlap=100)`, 381 chunk) vẫn nằm trong cùng bảng nhưng không dùng. Nguồn số liệu: `results/summary.json` của Day 6.
 - Vector store, embedding model, phiên bản và số chiều: PostgreSQL 16.16 + pgvector 0.8.7 (Docker image `pgvector/pgvector:0.8.7-pg16`), bảng `chunks`, lọc `strategy = 'B'`. Metric cosine (`<=>`), tìm kiếm chính xác (không dùng index ANN); filter metadata chạy trong SQL. Embedding: `openai/text-embedding-3-small` qua OpenRouter, 1536 chiều. Tài liệu và câu hỏi dùng cùng model, không thêm tiền tố; [starter/agentic.py](../../starter/agentic.py) kiểm tra số chiều của vector câu hỏi so với cột `embedding` và báo lỗi nếu lệch, không có fallback sang vector giả. Phiên bản thư viện: Python 3.14.7, psycopg 3.3.8, pypdf 6.21.4.
 - Agent model: `openai/gpt-4o-mini` qua OpenRouter, `temperature=0`, tool calling với `tool_choice="required"` (mỗi lượt model phải gọi `search` hoặc `answer`).
 - Cách chạy và phân chia dev/test:
   - **Phân chia:** [benchmark/benchmark.json](../../benchmark/benchmark.json) giữ nguyên 21 câu có đáp án của Day 6, gồm **15 câu dev (q01–q15)** và **6 câu test (t01–t06)**. Mọi câu đều thuộc nguồn `openstax-pds-ch02`.
-    - Dev: 5 `truc_tiep`, 4 `dien_dat_lai`, 3 `dieu_kien_ngoai_le`, 3 `metadata`. Ba câu metadata có filter `section` là q13 (2.3), q14 (2.5) và q15 (2.4).
-    - Test: 2 `truc_tiep`, 1 `dien_dat_lai`, 1 `dieu_kien_ngoai_le`, 2 `metadata`. Hai câu metadata có filter là t05 (2.5) và t06 (2.4).
     - Câu thiếu evidence (`answerable=false`) nằm riêng trong khóa `agent_cases` để baseline retrieval không chấm chúng: 2 câu dev (a-q01, a-q02) và 2 câu test (a-t01, a-t02).
     - Mọi lần thử và chỉnh cấu hình chỉ chạy `--split dev`. Test chạy một lần sau khi đã chốt cấu hình, kết quả lưu vào thư mục riêng.
     - **Hạn chế:** báo cáo Day 6 ghi rằng tham số chunking đã được đổi sau khi xem kết quả test, và t06 được thêm vào sau các lần chạy trước. Vì vậy t01–t06 không còn là holdout độc lập hoàn toàn. Kết quả test ở Day 7 chỉ mang tính tham khảo cho tới khi có bộ test mới theo [GUIDE.md](../../GUIDE.md).
@@ -60,12 +58,6 @@
 | Baseline | Dense, top-k=3, filter tắt, budget 800 | Mốc trên test | test | 4/6 (67%) | 6/6 (100%) | 4/6 (67%) | 1357,6 ms/câu; $0,000002 |
 
 Thời gian là median độ trễ retrieval mỗi câu (gồm gọi embedding qua mạng), đo trên máy cá nhân. Chi phí là tiền embedding OpenRouter báo cho cả split, không gồm agent. Cải thiện 1 và 2 không phải phương pháp mới; cả hai giữ phương pháp hybrid của PP3 và chỉ đổi một tham số mỗi lần. Kết quả từng lần chạy nằm trong [results/](../../results) (theo dõi bằng Git; `starter/results/` là thư mục làm việc và bị bỏ qua): `results/dense`, `results/lexical`, `results/hybrid` (Baseline, PP2, PP3), `results/hybrid-b1600` (Cải thiện 1), `results/hybrid-b1600-filter` (Cải thiện 2), `results/test-hybrid-b1600-filter` và `results/test-dense` (test), cùng các lần thử bên dưới. Xem lại bằng `python src/show_results.py results/dense results/lexical "results/hybrid*" "results/test-*"`.
-
-Các lần thử khác trên dev, không chọn:
-- `results/hybrid-multi`: hybrid + multi-query (gpt-4o-mini tạo 3 câu diễn đạt lại, gộp RRF), budget 800. Hit@1 giảm còn 6/15 (40%), Evidence Hit@3 13/15, Context Evidence Rate 6/15; 6382,6 ms/câu và $0,000466, tức đắt hơn khoảng 90 lần. Các câu diễn đạt lại làm loãng thứ hạng của chunk đúng.
-- `results/lexical-filter`: BM25 có filter cho kết quả giống hệt BM25 không filter (8/15, 14/15, 8/15), vì không có filter BM25 cũng đã trả về chunk đúng mục cho q13, q14.
-- `results/lexical-b1600-filter`: BM25, budget 1600, filter → 8/15, 14/15, 13/15. Context Evidence Rate bằng hybrid nhưng Hit@1 thấp hơn (8 so với 10).
-- `results/hybrid-b1600-filter-wlex2`: hybrid, trọng số lexical 2 → 10/15, 13/15, 13/15, không đổi so với Cải thiện 2.
 
 Hai lỗi trên dev, nguyên nhân, cách thử và lý do chọn cấu hình:
 - **Lỗi 1, evidence đã lấy được nhưng không vào context (q02, q03, q04 với hybrid budget 800):** evidence nằm ở hạng 2 hoặc 3. `pack_context` giữ chunk hạng 1 (tới ~650 ký tự kể cả header) và bỏ chunk tiếp theo vì vượt 800 ký tự. Đây là lý do Context Evidence Rate trùng với Hit@1 ở mọi phương pháp chạy với budget 800. Nâng budget lên 1600 đưa 2–3 chunk vào context (TB 2,1 chunk, 1245 ký tự), và Context Evidence Rate tăng từ 10/15 lên 13/15, bằng Evidence Hit@3. Cùng lỗi này cũng làm agent từ chối nhầm (xem phần Agent).
